@@ -1,0 +1,6 @@
+# Files and Folders for Git to Ignore
+
+# Ignore Mac OS system files
+.DS_Store
+.AppleDouble
+.LSOverride
