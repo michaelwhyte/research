@@ -1,2 +1,2 @@
-# research
+# Research
 A repo for research
