@@ -1,0 +1,2106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>section-05-notes-combined</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+  body {
+    padding: 2cm; 
+  }
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">05-11 How Teacher and Grammarly Feedback Complement One Another</h1>
+
+<p><strong>URL:</strong> <a href="https://link.springer.com/article/10.1007/s40299-021-00625-2">https://link.springer.com/article/10.1007/s40299-021-00625-2</a></p>
+
+<p><strong>DOI:</strong> <a href="https://doi.org/10.1007/s40299-021-00625-2">https://doi.org/10.1007/s40299-021-00625-2</a></p>
+
+<p><strong>Authors:</strong> Nang Kham Thi, Marianne Nikolov</p>
+
+<p><strong>Date:</strong> October 04, 2021</p>
+
+<p><strong>Cite:</strong></p>
+
+<p>Thi, N.K., Nikolov, M. How Teacher and Grammarly Feedback Complement One Another in Myanmar EFL Students’ Writing. Asia-Pacific Edu Res 31, 767–779 (2022). <a href="https://doi.org/10.1007/s40299-021-00625-2">https://doi.org/10.1007/s40299-021-00625-2</a></p>
+
+<hr>
+
+<h2 id="toc_1">ChatGPT Summary</h2>
+
+<p><strong>Model:</strong> ChatGPT 4 with Link Reader plugin</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p><strong>Prompt:</strong> Can you summarize this pdf at this url: https://link.springer.com/content/pdf/10.1007/s40299-021-00625-2.pdf?pdf=button into a few succinct easy to understand bullet points?</p>
+
+<p><strong>Response:</strong> </p>
+
+<p>Here are the main points from the PDF titled &quot;How Teacher and Grammarly Feedback Complement One Another in Myanmar EFL Students’ Writing&quot;:</p>
+
+<ol>
+<li><p>The paper investigates how automated feedback can be integrated with traditional teacher feedback in the context of English as a Foreign Language (EFL) students in Myanmar.</p></li>
+<li><p>The authors analyze the focus of teacher and Grammarly feedback on language- and content-related issues in students&#39; writing, and how effectively students use feedback from different sources in their revisions.</p></li>
+<li><p>The study finds that Grammarly primarily provides feedback on surface-level errors, while teacher feedback covers both lower- and higher-level writing concerns, suggesting a potential for integration.</p></li>
+<li><p>The results suggest that students effectively use the feedback received, and their writing performance improves according to the assessment criteria.</p></li>
+<li><p>The authors conclude that the integration of automated feedback tools like Grammarly can lighten the feedback burden on teachers, allowing them to focus more on higher-level writing skills.</p></li>
+<li><p>The study also highlights the pedagogical implications of integrating automated and teacher feedback in EFL writing instruction.</p></li>
+</ol>
+
+<p><strong>For better comprehension of the above bullet points, I asked ChatGPT 3.5 to turn the above points into a summary paragraph...</strong></p>
+
+<p><strong>Model:</strong> ChatGPT 3.5</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p><strong>Prompt:</strong> Can you take these bullet points and turn them into a summary paragraph or two...<em>Pasted summarized points from ChatGPT 4</em></p>
+
+<p><strong>Response:</strong></p>
+
+<p>The PDF titled &quot;How Teacher and Grammarly Feedback Complement One Another in Myanmar EFL Students’ Writing&quot; examines the integration of automated feedback with traditional teacher feedback for English as a Foreign Language (EFL) students in Myanmar. The authors analyze the focus of teacher and Grammarly feedback on language- and content-related issues in students&#39; writing and assess the effectiveness of feedback from different sources in students&#39; revisions. The study reveals that Grammarly primarily addresses surface-level errors, while teacher feedback encompasses both lower- and higher-level writing concerns, indicating potential for integration. The results indicate that students effectively utilize the received feedback, leading to improvements in their writing performance based on assessment criteria. The authors conclude that integrating automated feedback tools like Grammarly can alleviate the feedback workload for teachers, enabling them to concentrate more on higher-level writing skills. Additionally, the study underscores the pedagogical implications of merging automated and teacher feedback in EFL writing instruction.</p>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_2">05-06 Enhancing learners’ critical thinking skills with AI-assisted technology</h1>
+
+<p><strong>URL:</strong> <a href="https://www.cambridge.org/elt/blog/2023/03/30/enhancing-learners-critical-thinking-skills-with-ai-assisted-technology/">https://www.cambridge.org/elt/blog/2023/03/30/enhancing-learners-critical-thinking-skills-with-ai-assisted-technology/</a></p>
+
+<p><strong>Authors:</strong> Vinod Aithal, Jasmin Silver</p>
+
+<p><strong>Date:</strong> March 30, 2023</p>
+
+<p><strong>Date Accessed:</strong> May 27, 2023</p>
+
+<p><strong>Website:</strong> Cambridge</p>
+
+<hr>
+
+<h2 id="toc_3">ChatGPT Summary</h2>
+
+<p><strong>Model:</strong> ChatGPT 4 with Link Reader plugin</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p>Here are the main points from the article titled &quot;Enhancing learners’ critical thinking skills with AI-assisted technology&quot;:</p>
+
+<ol>
+<li><p>The authors discuss the potential of AI chatbots like ChatGPT to revolutionize education, but also caution about the risks of relying on AI-generated answers without critical scrutiny.</p></li>
+<li><p>They define critical thinking as a higher level of thinking that enables learners to think effectively and rationally, and break it down into three areas: understanding and analyzing ideas and arguments, evaluating ideas and arguments, and solving problems and making decisions.</p></li>
+<li><p>The authors propose a series of activities that integrate AI with coursebook materials to enhance learners’ critical thinking skills. These activities involve using AI to gather information, analyze and evaluate ideas, and solve problems.</p></li>
+<li><p>They emphasize the importance of learners being active participants in their learning, questioning the assumptions behind the chatbot’s answers, and understanding not just the chatbot’s biases, but also their own.</p></li>
+<li><p>The authors conclude by stating that AI is not going to disappear, and it is essential to teach learners to think critically and analyze and evaluate the information they get from this powerful new resource.</p></li>
+</ol>
+
+<p>In a short paragraph:</p>
+
+<p>The article &quot;Enhancing learners’ critical thinking skills with AI-assisted technology&quot; discusses the potential of AI chatbots like ChatGPT in education and the importance of critical thinking. The authors propose a series of activities that integrate AI with coursebook materials to enhance learners’ critical thinking skills, including understanding and analyzing ideas and arguments, evaluating ideas and arguments, and solving problems and making decisions. They emphasize the importance of learners questioning the assumptions and biases of the chatbot and their own. The authors conclude by stating that as AI is here to stay, it is essential to teach learners to critically analyze and evaluate the information they get from this powerful new resource.</p>
+
+<h2 id="toc_4">Additional Notes</h2>
+
+<p><strong>Note:</strong> These notes are added for the examples section of the essay...I thought the section of the article that deals with specific examples would be helpful for this section of the essay...</p>
+
+<ul>
+<li><p>Learners can save time using chatbots like ChatGPT to find information for an essay, but if a chatbot will do the whole thing for them, they may not need to put any effort in at all...DQ...</p>
+
+<ul>
+<li>If they don&#39;t put in any effort into project, chances are low that they may not learn in the process of doing the project which defeats on of the purposes of an assessment and that is to ensure students demonstrate their understanding and achivement of a skill, a piece of knowledge, or courselearning objective...</li>
+</ul></li>
+<li><p>...what if learners do not check whether the chatbot’s answer is any good? Worse still, what if learners do not have the critical thinking skills to scrutinise the chatbot’s answers?</p>
+
+<ul>
+<li>Good point...we need to teach students how to look at outputs from AI-LLMs with a critical eye, to always question the output or to know how to verify information provided by an AI-LLM</li>
+</ul></li>
+</ul>
+
+<h2 id="toc_5">What is critical thinking?</h2>
+
+<p><strong>ChatGPT summary of this section</strong></p>
+
+<ul>
+<li><p>Critical thinking is a higher level of thinking that helps learners think effectively and rationally.</p></li>
+<li><p>It involves three areas: </p>
+
+<ol>
+<li>Understanding and analyzing ideas and arguments</li>
+<li>Evaluating ideas and arguments</li>
+<li>Solving problems and making decisions</li>
+</ol></li>
+<li><p><strong>Understanding and analyzing ideas and arguments</strong> involves identifying patterns and relationships in information to gain a deeper understanding and make inferences.</p></li>
+<li><p><strong>Evaluating ideas and arguments</strong> requires judging the reliability of arguments and evidence, helping learners draw appropriate conclusions and construct strong arguments.</p></li>
+<li><p><strong>Solving problems and making decisions</strong> involves identifying and analyzing problems, gathering information, evaluating options, making decisions, and evaluating those decisions for further refinement.</p></li>
+<li><p><mark>Technology, such as chatbots, can be used to enhance the focus on developing critical thinking skills by providing additional support and resources for learners.</mark></p></li>
+</ul>
+
+<p><strong>Note:</strong> The follow has large chunks of text taking from the original article, be careful using this text directly in your essay</p>
+
+<p><strong>Note:</strong> The above paragraph is me paraphrases the thoughts of the author...</p>
+
+<p>Authentic Assignment Idea using AI to help students Learn following a series of assessments that enable students to discover knowledge on their own, but also question it, analyze it, and enhance it with their own understanding of a topic...</p>
+
+<p>Below is an idea, taking a single concept and through a series of assessments allowing students to use AI while still learning about a topic and developing critical thinking skills...</p>
+
+<h3 id="toc_6">Idea 1</h3>
+
+<h4 id="toc_7">Combining AI with coursebook materials to enhance learners’ critical thinking</h4>
+
+<ul>
+<li><p>How should we prevent diseases from spreading? The debate on this is less about the steps needed and more about who should be responsible for implementing them. Should individuals and families or governments take the lead in disease prevention?</p></li>
+<li><p>One of the writing tasks in Unlock asks learners to produce an essay on this topic:</p>
+
+<ul>
+<li>Is disease prevention the responsibility of individuals and their families, or of the government? </li>
+</ul></li>
+<li><p>The traditional way for learners to answer such a question would be to research the issues, finding voices from all sides of the debate, evaluating them alongside their own opinions to produce a conclusion. Although the coursebook already provides lots of support for learners throughout these steps, using AI as an alternative in some of these steps can provide a quick way of helping learners find relevant information and formulate answers, whilst presenting them with an activity that challenges their ability to think critically.</p></li>
+</ul>
+
+<h3 id="toc_8">Idea 2</h3>
+
+<h4 id="toc_9">Understanding and analysing ideas and arguments</h4>
+
+<ul>
+<li><p>Firstly, learners could be asked to brainstorm ten different ways of preventing diseases. </p></li>
+<li><p>They could then ask a chatbot to list 10 ways of preventing diseases, and compare their own lists with these ideas. From this they can see which list contains more of a focus on individual responsibility and which has more focus on government responsibility. </p></li>
+<li><p>Try it yourself and see what the chatbot focuses on. Why do you think the chatbot has answered in this way? By carrying out this type of activity, learners raise their awareness of the unintentional biases which can be present in chatbots’ outputs and can find strategies to ensure they include a balanced set of points in their arguments and essays.</p></li>
+</ul>
+
+<h3 id="toc_10">Idea 3</h3>
+
+<h4 id="toc_11">Evaluating ideas and arguments</h4>
+
+<ul>
+<li><p>Next, learners can ask the chatbot to write a short essay on the question ‘Is disease prevention the responsibility of individuals and their families, or of the government?’ Then ask learners the following questions: </p>
+
+<ul>
+<li>Are the points made in the text the most important points to consider? </li>
+<li>Which of the points are the most important? </li>
+<li>Does the chatbot choose the right point to focus on?</li>
+</ul></li>
+<li><p>Having considered these points, learners can write their own version of their essay, choosing from their own ideas for preventing disease from their initial brainstorm and adding in any other good points they liked from the chatbot’s answer, while trying to improve on it.</p></li>
+</ul>
+
+<h3 id="toc_12">Idea 4</h3>
+
+<h4 id="toc_13">Solving problems and making decisions</h4>
+
+<ul>
+<li><p>Finally, learners can use the information they have gathered so far to apply it to a real-world problem and come to a decision about how best to solve it. Learners can either choose a health issue that affects them, or ask a chatbot to generate a list of common health issues in society. </p></li>
+<li><p>Teachers could set up a class debate about one of the problems. One side argues for individual responsibility and the other for government responsibility to tackle the issue, and have them present their solutions to the class. The class can then vote for the best argument and explain their choice. As a fun final activity, they could even ask the chatbot to choose the best solution to the problem and discuss why the answer was the same as their own, or different.</p></li>
+</ul>
+
+<p><strong>ChatGPT Summary of the above...</strong></p>
+
+<p><strong>Model:</strong> ChatGPT 3.5</p>
+
+<p><strong>Date:</strong> May 28, 2023</p>
+
+<p><strong>Prompt:</strong> Can you summarize this text into a few bullet points:</p>
+
+<p><strong>Note:</strong> A second prompt was made to get the AI to format the text for easier reading. The response from the second formatting prompt is what is here...</p>
+
+<p><strong>Prompt:</strong> Can you organize your previous response a bit better by making the points under each idea a sub list to that idea list item?</p>
+
+<p><strong>Note:</strong> Bold formatting is added by me...</p>
+
+<p><strong>Response:</strong> </p>
+
+<p>Certainly! Here&#39;s a revised version with each point organized as a sub-list under each idea:</p>
+
+<ul>
+<li><p><strong>Idea 1: Combining AI with coursebook materials to enhance learners&#39; critical thinking:</strong></p>
+
+<ul>
+<li>Learners are given an essay topic on disease prevention responsibility.</li>
+<li>AI can assist learners in finding relevant information quickly.</li>
+<li>AI provides a challenging activity that tests learners&#39; critical thinking skills.</li>
+</ul></li>
+<li><p><strong>Idea 2: Understanding and analyzing ideas and arguments:</strong></p>
+
+<ul>
+<li>Learners brainstorm ten ways of preventing diseases.</li>
+<li>Learners compare their list with a chatbot&#39;s list.</li>
+<li>Learners become aware of biases in chatbot responses.</li>
+</ul></li>
+<li><p><strong>Idea 3: Evaluating ideas and arguments:</strong></p>
+
+<ul>
+<li>Learners ask the chatbot to write an essay on disease prevention responsibility.</li>
+<li>Learners evaluate the importance of points made in the chatbot&#39;s essay.</li>
+<li>Learners write their own version, incorporating their ideas and improving upon the chatbot&#39;s answer.</li>
+</ul></li>
+<li><p><strong>Idea 4: Solving problems and making decisions:</strong></p>
+
+<ul>
+<li>Learners apply gathered information to a real-world health problem.</li>
+<li>Learners decide on the best solution.</li>
+<li>Class debate is organized, with arguments for individual or government responsibility.</li>
+<li>Class votes for the best argument and discusses the chatbot&#39;s alignment with their choice.</li>
+</ul></li>
+</ul>
+
+<h2 id="toc_14">Conclusion</h2>
+
+<p><strong>Prompt:</strong> The text here is the conclusion from previous text I pasted in to the prompt input...Can you summarize this conclusion based on the context of the previous prompts...Here is the conclusion text:</p>
+
+<p><strong>Response:</strong> </p>
+
+<p>The conclusion based on the context of the previous prompts is as follows:</p>
+
+<ul>
+<li>The example highlights how AI can enhance learners&#39; critical thinking skills.</li>
+<li>Learners are encouraged to question the chatbot&#39;s assumptions and be critical of the information they encounter.</li>
+<li>By taking control of their learning materials, learners become active participants and gain awareness of both the chatbot&#39;s biases and their own.</li>
+<li>Since AI is a persistent presence, teaching learners to think critically and analyze information from this resource is crucial.</li>
+</ul>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_15">05-04 Welcome to the Brave New World of AI-enhanced education</h1>
+
+<p><strong>URL:</strong> https://ottawacitizen.com/opinion/richardson-welcome-to-the-brave-new-world-of-ai-enhanced-education</p>
+
+<p><strong>Authors:</strong> John M. Richardson</p>
+
+<p><strong>Date:</strong> January 03, 2023</p>
+
+<p><strong>Date Accessed:</strong> May 27, 2023</p>
+
+<p><strong>Website:</strong> Ottawa Citizen</p>
+
+<hr>
+
+<h2 id="toc_16">ChatGPT Summary</h2>
+
+<p><strong>Model:</strong> ChatGPT 4 with Link Reader plugin</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p>Here are the main points from the article titled &quot;Richardson: Welcome to the Brave New World of AI-enhanced education&quot;:</p>
+
+<ol>
+<li><p>The author discusses the impact of AI chatbots, specifically ChatGPT, on education, comparing it to the transformative effect of search engines two decades ago.</p></li>
+<li><p>He uses ChatGPT to answer questions about AI, its use in classrooms, and its potential to aid students in cheating, demonstrating the bot&#39;s ability to provide insightful responses.</p></li>
+<li><p>The author also uses ChatGPT to answer essay prompts, noting that while the bot provides insightful responses, it lacks the ability to provide close readings of direct quotations, a key skill in English literature.</p></li>
+<li><p>The author consults two human experts on the role of AI in education. Dr. Neil Selwyn, an expert in educational technology, suggests that AI will create more work for teachers and emphasizes the need to teach students how to use AI tools productively and ethically.</p></li>
+<li><p>Dr. Michelle Schira Hagerman, at the University of Ottawa Faculty of Education, emphasizes the central role of human educators and the need for AI to provide supports for learners that are centered in equity, inclusion, and social justice.</p></li>
+<li><p>The author concludes by stating that the advent of AI-enhanced education requires educators to continue teaching students to think critically and work ethically, while also navigating the new challenges and opportunities presented by AI.</p></li>
+</ol>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_17">05-00 Bing Chat - Role of AI in Education</h1>
+
+<p><strong>Model:</strong> Bing Chat</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p><strong>Prompt:</strong> since AI can now generate text and other media with ease on a wide variety of topics...it means traditional assessments such as standard tests, and knowledge based essays may become less important in determining student success or achievement of learning objectives...because of this authentic assessments (where students generate an output similar to a real world scenario, using a variety of media) may rise in importance because having students analyze a topic in a debate or do a live presentation or an interview to showcase their knowledge is difficult to do on the fly with AI...So therefore students can use AI to gather knowledge but must use their own abilities to analyse that knowledge and demonstrate it...Are their articles out their that discuss this? Do not use the this resource please: cadmus.io</p>
+
+<p><strong>Response:</strong></p>
+
+<p>Yes, there are articles that discuss this topic. Authentic assessments are becoming more important as AI can now generate text and other media with ease on a wide variety of topics. Traditional assessments such as standard tests and knowledge-based essays may become less important in determining student success or achievement of learning objectives. Authentic assessments require students to generate an output similar to a real-world scenario using a variety of media. This is difficult to do on the fly with AI. Therefore, students can use AI to gather knowledge but must use their own abilities to analyze that knowledge and demonstrate it [1, 2].</p>
+
+<p>I hope this helps.</p>
+
+<p>Source: Conversation with Bing, 2023-05-27</p>
+
+<p><strong>Sources:</strong></p>
+
+<ol>
+<li>Traditional vs. Authentic Assessment - Principles and Methods of Assessment. <a href="https://abdao.wordpress.com/2015/07/18/traditional-vs-authentic-assessment/">https://abdao.wordpress.com/2015/07/18/traditional-vs-authentic-assessment/</a>.</li>
+<li>Authentic Assessment versus Traditional Assessment: A Comparative Study. <a href="https://digitalcommons.coastal.edu/cgi/viewcontent.cgi?article=1145&amp;context=honors-theses">https://digitalcommons.coastal.edu/cgi/viewcontent.cgi?article=1145&amp;context=honors-theses</a>.</li>
+<li>Traditional Assessments vs. Authentic Assessments | Mind Map - GoConqr. <a href="https://www.goconqr.com/mindmap/4340513/traditional-assessments-vs-authentic-assessments">https://www.goconqr.com/mindmap/4340513/traditional-assessments-vs-authentic-assessments</a>.</li>
+<li>Principles of Authentic Assessments – Rethinking Assessment Strategies .... <a href="https://ecampusontario.pressbooks.pub/rethinkingassessment/chapter/principles-of-authentic-assessments/">https://ecampusontario.pressbooks.pub/rethinkingassessment/chapter/principles-of-authentic-assessments/</a>.</li>
+<li>Authentic Assessments | Center for the Advancement of Teaching .... <a href="https://teaching.uic.edu/resources/teaching-guides/assessment-grading-practices/authentic-assessments/">https://teaching.uic.edu/resources/teaching-guides/assessment-grading-practices/authentic-assessments/</a>.</li>
+</ol>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_18">05-05 Here&#39;s how teachers can integrate AI chatbots into classrooms</h1>
+
+<p><strong>URL:</strong> <a href="https://ottawacitizen.com/opinion/columnists/richardson-heres-how-teachers-can-integrate-ai-chatbots-into-classrooms">https://ottawacitizen.com/opinion/columnists/richardson-heres-how-teachers-can-integrate-ai-chatbots-into-classrooms</a></p>
+
+<p><strong>Authors:</strong> John M. Richardson</p>
+
+<p><strong>Date:</strong> April 15, 2023</p>
+
+<p><strong>Date Accessed:</strong> May 27, 2023</p>
+
+<p><strong>Website:</strong> Ottawa Citizen</p>
+
+<hr>
+
+<p>Here are the main points from the article titled &quot;Richardson: Here&#39;s how teachers can integrate AI chatbots into classrooms&quot;:</p>
+
+<ol>
+<li><p>The author discusses the sudden emergence of AI chatbots like ChatGPT and their impact on educators, who must now consider how this technology affects teaching, learning, and assessment.</p></li>
+<li><p>He proposes a five-part framework for integrating AI chatbots into classrooms, which includes planning teaching around a robust pedagogy, teaching in ways that reflect how practitioners use AI in their discipline, redesigning assessments in light of AI, providing opportunities for students to learn from both AI-powered apps and human teachers, and dividing the curriculum into three areas: foundational skills, newly transformed skills, and analytical skills.</p></li>
+<li><p>The author emphasizes the importance of teaching students to work ethically with AI and ensuring that every student&#39;s work is their own.</p></li>
+<li><p>He also suggests that while AI-powered apps can support independent learning, human teachers must prioritize human-centered learning that teaches students to be fully-fledged citizens with voices, values, and empathy for others.</p></li>
+<li><p>The author concludes by stating that this framework is designed to provide structure and support for educators who are revising their strategies to meet students&#39; needs during a time of rapid technological change.</p></li>
+</ol>
+
+<p>In a short paragraph:</p>
+
+<p>The article by John M. Richardson, an adjunct professor at the University of Ottawa Faculty of Education, discusses the integration of AI chatbots like ChatGPT into classrooms. He proposes a five-part framework for this integration, which includes planning teaching around a robust pedagogy, reflecting how practitioners use AI in their discipline, redesigning assessments in light of AI, providing opportunities for students to learn from both AI-powered apps and human teachers, and dividing the curriculum into three areas: foundational skills, newly transformed skills, and analytical skills. Richardson emphasizes the importance of teaching students to work ethically with AI and the need for human-centered learning. He concludes by stating that this framework is designed to support educators in meeting students&#39; needs during a time of rapid technological change.</p>
+
+<p><strong>I asked ChatGPT to expand on point 2...</strong></p>
+
+<p>The five-part framework for integrating AI chatbots into classrooms, as proposed by the author, is as follows:</p>
+
+<ol>
+<li><p><strong>Robust Pedagogy:</strong> Teaching should be planned around a robust pedagogy that positions AI as a tool for engaged students to get important things done. The author suggests pedagogies like &quot;real-world learning&quot; and &quot;teaching for understanding&quot; that inspire active learning and ongoing feedback.</p></li>
+<li><p><strong>Reflecting Practitioner Use of AI:</strong> Educators should teach in ways that reflect how practitioners use AI in their discipline. For instance, science students can use AI like scientists to analyze data sets and review research papers.</p></li>
+<li><p><strong>Redesigning Assessments:</strong> Assessments should be redesigned in light of AI. Some tasks will explicitly ask for students to use AI tools, while others will be AI-proof. Assessments should be designed so that students must work ethically.</p></li>
+<li><p><strong>Balancing AI-Powered Learning and Human Teaching:</strong> Students should have opportunities to teach themselves with new AI-powered apps while also learning from caring and compassionate human teachers.</p></li>
+<li><p><strong>Dividing the Curriculum:</strong> Instructors should divide their curriculum into three areas: foundational skills that every student in a discipline should be able to accomplish without access to AI, newly transformed skills that students should henceforth always expect to do with AI, and analytical skills that involve taking critical perspectives and making ethical judgements.</p></li>
+</ol>
+
+<p><strong>Note:</strong> The bolded text is formatting added by me...</p>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_19">ChatGPT: five priorities for research</h1>
+
+<p><strong>URL:</strong> <a href="https://www.nature.com/articles/d41586-023-00288-7">https://www.nature.com/articles/d41586-023-00288-7</a></p>
+
+<p><strong>DOI:</strong> <a href="https://doi.org/10.1038/d41586-023-00288-7">https://doi.org/10.1038/d41586-023-00288-7</a></p>
+
+<p><strong>Authors:</strong> Eva A. M. van Dis, Johan Bollen, Willem Zuidema, Robert van Rooij, Claudi L. Bockting</p>
+
+<p><strong>Website:</strong> Nature</p>
+
+<p><strong>Date:</strong> February 03, 2023</p>
+
+<p><strong>Date Accessed:</strong> May 27, 2023</p>
+
+<hr>
+
+<p><strong>Model:</strong> ChatGPT 4 with Link Reader plugin</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p><strong>Prompt:</strong> Can you summarize this pdf at this url: https://michaelwhyte.github.io/research/nature.pdf into a few succinct easy to understand bullet points?</p>
+
+<p><strong>Response:</strong> </p>
+
+<p>Here are the main points from the PDF titled &quot;ChatGPT: five priorities for research&quot;:</p>
+
+<ol>
+<li><p>The authors discuss the implications of ChatGPT, a large language model (LLM), on the way researchers work. They note that ChatGPT can produce sophisticated and seemingly intelligent writing after training on a massive dataset of text.</p></li>
+<li><p>They highlight that while ChatGPT can accelerate the innovation process, shorten time-to-publication, and increase the diversity of scientific perspectives, it can also degrade the quality and transparency of research and spread misinformation.</p></li>
+<li><p>The authors emphasize the importance of human verification, noting that the use of conversational AI for specialized research can introduce inaccuracies, bias, and plagiarism. They provide examples of how ChatGPT can generate false and misleading text.</p></li>
+<li><p>They call for the development of rules for accountability, suggesting that author-contribution statements and acknowledgements in research papers should clearly state whether and to what extent AI technologies were used in the preparation of their manuscript and analysis.</p></li>
+<li><p>The authors advocate for the development and implementation of open-source AI technology to counter the lack of transparency in proprietary AI technologies.</p></li>
+<li><p>They discuss the potential benefits of AI, such as accelerating innovation and potentially leading to breakthroughs across many disciplines, provided that issues related to bias, provenance, and inaccuracies are addressed.</p></li>
+<li><p>The authors call for a wider debate on the disruptive potential of LLMs, recommending immediate discussions within research groups and an international forum on the development and responsible use of LLMs for research.</p></li>
+<li><p>They conclude by emphasizing the need to embrace the opportunities and manage the risks of AI in science, without losing the important aspects of scientific work such as curiosity, imagination, and discovery.</p></li>
+</ol>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_20">05-02 How ChatGPT Can Improve Education, Not Threaten It</h1>
+
+<p><strong>URL:</strong> <a href="https://www.scientificamerican.com/article/how-chatgpt-can-improve-education-not-threaten-it/">https://www.scientificamerican.com/article/how-chatgpt-can-improve-education-not-threaten-it/</a></p>
+
+<p><strong>Authors:</strong> John Villasenor</p>
+
+<p><strong>Date:</strong> February 10, 2023</p>
+
+<p><strong>Date Accessed:</strong> May 27, 2023</p>
+
+<p><strong>Website:</strong> Scientific American</p>
+
+<hr>
+
+<h2 id="toc_21">ChatGPT Summary</h2>
+
+<p><strong>Model:</strong> ChatGPT 4 with Link Reader plugin</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p>Here are the main points from the article titled &quot;How ChatGPT Can Improve Education, Not Threaten It&quot;:</p>
+
+<ol>
+<li><p>The author, a professor at UCLA, argues against banning the use of AI tools like ChatGPT in education, stating that students should be taught to use them ethically and productively instead.</p></li>
+<li><p>He believes that students need to learn how to prompt an AI writing tool to elicit worthwhile output and know how to evaluate its quality, accuracy, and originality.</p></li>
+<li><p>The author suggests that it is not feasible to effectively ban access to AI technology like ChatGPT, as many students will be unable to resist the temptation to seek AI assistance with their writing.</p></li>
+<li><p>He also argues that enforcing a ChatGPT ban would inevitably produce injustice due to false positives and negatives, with some students being falsely accused of using ChatGPT.</p></li>
+<li><p>The author emphasizes that learning to successfully combine unassisted and AI-assisted writing to create good essays also requires focused, disciplined thinking.</p></li>
+<li><p>He concludes by encouraging his students to become responsible, aware users of the AI technologies that will play a profoundly important role over the course of their careers.</p></li>
+</ol>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_22">05-01 Leadership is needed for ethical ChatGPT</h1>
+
+<p><strong>URL:</strong> <a href="https://ro.uow.edu.au/jutlp/vol20/iss3/02/">https://ro.uow.edu.au/jutlp/vol20/iss3/02/</a></p>
+
+<p><strong>DOI:</strong> <a href="https://doi.org/10.53761/1.20.3.02">https://doi.org/10.53761/1.20.3.02</a></p>
+
+<p><strong>Authors:</strong> Joseph Crawford, Michael Cowling, Kelly-Ann Allen</p>
+
+<p><strong>Date:</strong> March 08, 2023 </p>
+
+<p><strong>Cite:</strong></p>
+
+<p>Crawford, J., Cowling, M., &amp; Allen, K. (2023). Leadership is needed for ethical ChatGPT: Character, assessment, and learning using artificial intelligence (AI). <em>Journal of University Teaching &amp; Learning Practice, 20</em>(3). https://doi.org/10.53761/1.20.3.02</p>
+
+<hr>
+
+<h2 id="toc_23">Research Question</h2>
+
+<ul>
+<li>What are the opportunities of ChatGPT in higher education practice?..DQ...</li>
+</ul>
+
+<h2 id="toc_24">Practitioner Notes</h2>
+
+<ol>
+<li>OpenAI’s ChatGPT-3 has taken higher education by storm with threats of plagiarism and
+integrity as key concerns.</li>
+<li>We argue that effective teacher leadership is needed to develop student character so they
+use ChatGPT for good, rather than for personal benefit.</li>
+<li>ChatGPT can create new and innovative authentic assessment in higher education.</li>
+<li><p>ChatGPT offers students the opportunity to simplify the learning process to create less
+distraction, and more flow.</p></li>
+</ol>
+
+<ul>
+<li>The above points are ...DQ...</li>
+</ul>
+
+<h2 id="toc_25">High Student Stress Levels</h2>
+
+<ul>
+<li>Students who experience high stress are particularly susceptible to engaging in plagiarism or the misuse of AI technology...DQ...</li>
+</ul>
+
+<h2 id="toc_26">Academic Integrity</h2>
+
+<ul>
+<li><p>In 1963, for instance, only 3 percent of students admitted to cheating on exams, while in 2015, that number had risen to 64 percent and some studies identify higher rates (Wright, 2015) [1]...DQ...</p></li>
+<li><p>...some researchers have suggested that the increased pressure on students to succeed academically, paired with the availability of technology, makes academic breaches far easier (Jereb et al., 2018; Surahman &amp; Wang, 2022) [2, 3]...DQ...</p></li>
+<li><p>Research has found that academic stress is positively linked with cheating behaviour (Ma et al., 2013) [4]...DQ...</p></li>
+<li><p>students are more likely to engage in plagiarism (Ehrich et al., 2016) [5]...mostly DQ...</p></li>
+</ul>
+
+<p><strong>Sources:</strong></p>
+
+<ol>
+<li><p>Wright, T. (2015). Distinguished scholar invited essay: Reflections on the role of character in business education and student leadership development. <em>Journal of Leadership &amp; Organizational Studies, 22</em>(3), 253-264.</p></li>
+<li><p>Jereb, E., Perc, M., Lämmlein, B., Jerebic, J., Urh, M., Podbregar, I., &amp; Šprajc, P. (2018). Factors influencing plagiarism in higher education: A comparison of German and Slovene students. <em>PloS One, 13</em>(8), e0202252. <a href="https://doi.org/10.1371/journal.pone.020225">https://doi.org/10.1371/journal.pone.020225</a></p></li>
+<li><p>Surahman, E., &amp; Wang, T. H. (2022). Academic dishonesty and trustworthy assessment in online learning: A systematic literature review. <em>Journal of Computer Assisted Learning, 38</em>(6), 1535-1553. <a href="https://doi.org/10.1111/jcal.12708">https://doi.org/10.1111/jcal.12708</a></p></li>
+<li><p>Ma, Y., McCabe, D. L., &amp; Liu, R. (2013). Students’ academic cheating in Chinese universities: Prevalence, influencing factors, and proposed action. <em>Journal of Academic Ethics, 11</em>(3), 169-184. <a href="https://doi.org/10.1007/s10805-013-9186-7">https://doi.org/10.1007/s10805-013-9186-7</a></p></li>
+<li><p>Ehrich, J., Howard, S. J., Mu, C., &amp; Bokosmaty, S. (2016). A comparison of Chinese and Australian university students&#39; attitudes towards plagiarism. <em>Studies in Higher Education, 41</em>(2), 231-246. <a href="https://doi.org/10.1080/03075079.2014.927850">https://doi.org/10.1080/03075079.2014.927850</a></p></li>
+</ol>
+
+<h2 id="toc_27">Concerns with AI</h2>
+
+<ul>
+<li><p>...diminished reputation of academic institutions resulting in the discouragement of employers from hiring graduates of a particular institution...DQ...</p></li>
+<li><p>the devaluing of a university qualification...DQ...</p></li>
+<li><p>the most pervasive concerns reported through early research is the impact on learning (Zhai et al., 2021) [1]</p></li>
+<li><p>...higher education staff may be most concerned about the impact of AI on student learning...DQ...</p></li>
+<li><p>Many academics have anecdotally admitted worrying about students misusing AI tools to plagiarise assignments or use AI to misuse research data (e.g., Bockting et al., 2023) [2]</p></li>
+<li><p>Other potential drawbacks discussed include:</p>
+
+<ul>
+<li>the cost of innovative technology to monitor or investigate academic misconduct associated with AI. </li>
+<li>Time and resources of academic staff who already report they are at capacity for their workload, overloaded or stressed themselves – especially those from underserved populations (Allen et al., 2020; 2021) [3, 4]</li>
+</ul></li>
+<li><p>The above points mostly...DQ...</p></li>
+<li><p>Attempting to battle AI technology or prevent or detect its use may be considered futile by most academics...DQ...</p></li>
+<li><p>Check out this article from Zhai et al., referenced above:</p>
+
+<ul>
+<li><a href="https://www.hindawi.com/journals/complexity/2021/8812542/">https://www.hindawi.com/journals/complexity/2021/8812542/</a></li>
+</ul></li>
+</ul>
+
+<p><strong>ChatGPT 3.5 Summary</strong></p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<ul>
+<li>AI in education has raised concerns, including the impact on the reputation of academic institutions and the devaluation of university qualifications.</li>
+<li>One of the most significant concerns is the effect of AI on student learning, which worries higher education staff.</li>
+<li>Academics fear that students may misuse AI tools for plagiarism or misuse research data.</li>
+<li>Implementing AI technology to monitor and investigate academic misconduct can be costly in terms of time and resources for already overloaded academic staff.</li>
+<li>Many academics feel overwhelmed by their workload, especially those from underserved populations.</li>
+<li><strong>Despite concerns, it is seen as futile to try to battle AI technology or prevent its use, as some students already approach learning with a convenience-oriented mindset.</strong></li>
+<li>Some new scholarly perspectives are embracing the possibilities of AI in education.</li>
+</ul>
+
+<p><strong>I asked ChatGPT 3.5 for clarification on the bolded point above</strong></p>
+
+<p>...The reference to a &quot;convenience-oriented mindset&quot; suggests that some students may prioritize convenience and efficiency in their approach to learning. With the advent of AI tools and technologies, students have access to various resources that can assist them in their academic tasks, such as automated essay generators, online research tools, or plagiarism detection software.</p>
+
+<p>However, this convenience-oriented mindset can have drawbacks. It raises concerns that students might misuse these AI tools to plagiarize assignments or improperly use research data. Instead of engaging in genuine learning and critical thinking, they may rely heavily on AI to complete their tasks quickly and easily. This convenience-oriented mindset can undermine the integrity and quality of their education.</p>
+
+<p>While some scholars and educators recognize the potential benefits of AI in education, they also acknowledge the need to address these concerns and strike a balance between leveraging AI technology and promoting responsible and ethical learning practices.     </p>
+
+<p><strong>Sources:</strong></p>
+
+<ol>
+<li><p>Zhai, X., Chu, X., Chai, C. S., Jong, M. S. Y., Istenic, A., Spector, M., Liu J-B., Yuan, J., &amp; Li, Y. (2021). A review of artificial intelligence (AI) in education from 2010 to 2020. <em>Complexity, 2021,</em> Article 8812542. <a href="https://doi.org/10.1155/2021/8812542">https://doi.org/10.1155/2021/8812542</a></p></li>
+<li><p>Bockting, C. L., van Dis, E. A., Bollen, J., Zuidema, W. &amp; van Rooij, R. (2023). ChatGPT: five priorities for research. <em>Nature, 614</em>(7947), 224-226. <a href="https://doi.org/10.1038/d41586-023-00288-7">https://doi.org/10.1038/d41586-023-00288-7</a></p></li>
+<li><p>Allen, K. A., Butler-Henderson, K., Reupert, A., Longmuir, F., Finefter-Rosenbluh, I., Berger, E., Grove, C., Heffernan, A., Freeman, N., Kewalramani, S., Krebs, S., Dsouza, L., Mackie, G., Chapman, D., &amp; Fleer, M. (2021). Work like a girl: Redressing gender inequity in academia through systemic solutions. <em>Journal of University Teaching &amp; Learning Practice, 18</em>(3), Article 03. <a href="https://doi.org/10.53761/1.18.3.3">https://doi.org/10.53761/1.18.3.3</a></p></li>
+<li><p>Allen, K. A., Donoghue, G., Pahlevansharif, S., Jimerson, S., &amp; Hattie, J. (2020). Addressing academic rejection: Recommendations for reform. <em>Journal of University Teaching &amp; Learning Practice, 17</em>(5), Article 19. <a href="https://doi.org/10.53761/1.17.5.19">https://doi.org/10.53761/1.17.5.19</a>.</p></li>
+</ol>
+
+<h2 id="toc_28">The History of AI</h2>
+
+<ul>
+<li>This part of the article contains a good overview of the history of AI...
+
+<ul>
+<li>This will be good to reference for any larger future papers where I might want to discuss the history of AI...</li>
+</ul></li>
+</ul>
+
+<p><strong>ChatGPT 3.5 Summary</strong></p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<ul>
+<li>Artificial intelligence (AI) has a history of nearly 70 years, starting in the 1950s when the concept of intelligent machines was proposed.</li>
+<li>The field of AI progressed from solving simple problems like checkers to more advanced systems such as decision support and planning systems, which found applications in business and education.</li>
+<li>The emergence of Neural Networks and Machine Learning in the late 20th century brought AI into the public consciousness as a tool for improving quality of life.</li>
+<li>Neural Networks allowed machines to make predictions and forecasts with greater precision than humans, leading to their integration in various domains where their expertise surpassed human capabilities.</li>
+<li>AI evolved from mastering toy problems like chess and Jeopardy! to recognizing images and sounds, contributing to advancements in voice and image recognition in consumer devices.</li>
+<li>In the 21st century, corporations recognized the value of aggregating large amounts of data for data warehousing and analytics purposes, enabling targeted marketing campaigns and detailed profiling of individuals.</li>
+<li>The progress of AI has accelerated in recent years, with AI models like ChatGPT (LLM AI) bringing about radical changes in how people work, live, and learn.</li>
+</ul>
+
+<h2 id="toc_29">The Advent of ChatGPT</h2>
+
+<ul>
+<li>when we asked ChatGPT “Describe in one sentence why you were made” it said:
+
+<ul>
+<li><em>I was made to provide conversational assistance and answer a wide range of questions to help people find information and complete tasks more easily.</em></li>
+</ul></li>
+<li><p>But this is not just a preformatted answer. Instead, if we were to ask again, we’d be given a slightly different but similar result:</p>
+
+<ul>
+<li><em>I was made to provide natural language processing and generate human-like responses to facilitate communication between humans and machines.</em></li>
+</ul></li>
+<li><p>The above points are ...DQ...</p></li>
+<li><p>ChatGPT generates its output based on the prompt, using a pre-trained model that has been built from a large corpus of data (big data) that ChatGPT has scraped the internet for. Using this data, ChatGPT creates sentences and paragraphs based on what others have said about a topic in the past, stringing together words to construct a novel and creative answer that is slightly different each time.</p></li>
+<li><p>Intriguingly, this means that ChatGPT does not actually understand what it’s saying, but in the classic approach, leaves us to wonder that if it ‘looks like a duck and quacks like a duck’, does it matter whether it actually is a duck?</p></li>
+<li><p>The above points are ...DQ...</p></li>
+<li><p>Good point on the number of academic articles on ChatGPT at the time this article was published...</p>
+
+<ul>
+<li>As of 21 February 2023, there were <em>21 articles listed in Scopus that use ChatGPT in title, abstract, or keywords</em>...DQ...
+
+<ul>
+<li><strong>Note:</strong> Text emphasis formatting added by me...</li>
+</ul></li>
+</ul></li>
+<li><p>ChatGPT itself indicates that this [whether ChatGPT should be listed as a co-author] should be based on careful assessment of contributions (when asked “Should ChatGPT be listed as an author on academic papers?”):</p>
+
+<ul>
+<li><em>Ultimately, the decision of whether to list ChatGPT as an author on an academic paper should be based on a careful assessment of its contributions to the work and should be guided by established academic conventions and ethical standards.</em></li>
+</ul></li>
+<li><p>The above points are ...DQ...</p></li>
+<li><p>in the context of blind studies, human reviewers correctly identified 68 percent of ChatGPT generated abstracts and 86 percent of genuine abstracts, but incorrectly identified the rest...a doctoral candidate with minimal training in grading papers or integrity-detection may have considerable challenge in identifying when students use the AI tool to cheat...DQ...</p></li>
+<li><p>University of Tasmania (2023) releasing a Statement on the Use of Artificial Intelligence to students and staff:</p>
+
+<ul>
+<li><em>You can use generative Artificial Intelligence (AI) to learn, just like you would study with a classmate or ask a friend for advice. You are not permitted to present the output of generative AI as your own work for your assignments or other assessment tasks. This constitutes an academic integrity breach. In some units, a unit coordinator may explicitly allow or require the use of AI in your assessment task.</em></li>
+</ul></li>
+<li><p>The above points are ...DQ...</p></li>
+<li><p>The Reddit ChatGPT thread had a post in February 2023 on using ChatGPT to write a paper...</p></li>
+<li><p>The Reddit ChatGPT – an online forum – offers an early case of the opportunity that ChatGPT provides for students to cheat on their studies. On 21 February 2023 for example, one popular post included a two-line memetic call-and-response “Open AI: ‘We’ve trained a model called ChatGPT which interacts in a conversational way.’ College students:” followed by an image of a student with an A+ paper, a “what if you never had to do homework again” on the page, and a book titled “The Homework Machine” (see Reddit, 2023).</p></li>
+<li><p>Here is the Reddit post:</p>
+
+<ul>
+<li><a href="https://www.reddit.com/r/ChatGPT/comments/117fie2/openai_weve_trained_a_model_called_chatgpt_which/">https://www.reddit.com/r/ChatGPT/comments/117fie2/openai_weve_trained_a_model_called_chatgpt_which/</a></li>
+</ul></li>
+<li><p>Here is the image that the above point is referring to:</p></li>
+</ul>
+
+<p><img src="images/figure-01.jpg" alt="Student holding a paper with a grade of A+, with text implying AI did the homework"></p>
+
+<ul>
+<li><p>we asked ChatGPT “What is the main risk of using ChatGPT-3 for assignment writing” it summarised:</p>
+
+<ul>
+<li><em>While ChatGPT-3 can be a helpful tool for generating ideas and providing structure for your writing, it is important to use it in conjunction with your own critical thinking, analysis, and research. It is also important to be aware of the risks associated with relying too heavily on ChatGPT-3 and to take steps to avoid plagiarism and ensure the accuracy and relevance of the information you include in your writing.</em></li>
+</ul></li>
+<li><p>The above points are ...DQ...</p></li>
+</ul>
+
+<h2 id="toc_30">The need for good leadership in teaching ChatGPT</h2>
+
+<ul>
+<li><p>In a recent Journal of University Teaching and Learning Practice editorial, the Editor-in-Chief introduced publication sections that focused on good leadership and educational psychology to better understand and enhance how students engage with learning (Crawford, 2023) [1]. In these scenarios it was the leadership of teachers that influenced the extent to which students would engage in effective or ineffective (e.g., cheating) learning.it was the leadership of teachers that influenced the extent to which students would engage in effective or ineffective (e.g., cheating) learning...DQ...</p></li>
+<li><p>When asking ChatGPT “Can good teacher leadership improve students use of ChatGPT-3 to learn?”, it summarised:</p>
+
+<ul>
+<li><em>Overall, good teacher leadership can play an important role in helping students use ChatGPT-3 effectively to learn. By providing guidance and direction, promoting critical thinking and analysis, providing formative feedback, and encouraging collaboration and discussion, teachers can help students become more effective and engaged learners.</em></li>
+</ul></li>
+<li><p>It is our proposition therefore that to combat prospective cheating or misuse of the ChatGPT application, and future artificial intelligence chatbots and tools, by cultivating a sense of moral character in students as an imperative. </p>
+
+<ul>
+<li>This may be through:
+
+<ul>
+<li>effective teacher role modelling</li>
+<li>through leadership development opportunities</li>
+<li>through continuous self-awareness</li>
+<li>ethics</li>
+<li>decision-making training </li>
+</ul></li>
+<li>The above are to build critical thinkers with a firm moral compass.</li>
+</ul></li>
+<li><p>The above is mostly a ...DQ...</p></li>
+<li><p>effective leadership opportunities embedded into core curriculum may pose a possible antidote to whatever future convenience that students might be afforded by difficult-to- detect cheating practices...DQ...</p>
+
+<ul>
+<li>Having teachers discuss with students about using AI in ways that hinder their learning might be more effective than trying to rely on discovering cheating...</li>
+<li>By having teachers act as leaders and guiding students on the potential drawbacks of certain uses of AI that can hinder their learning, we can potentially counteract any convenience that students may experience from engaging in difficult-to-detect cheating practices...
+
+<ul>
+<li>The above point was a rephrase from ChatGPT 3.5 - May 27, 2023, based on the authors original text and some follow prompts by me...</li>
+</ul></li>
+</ul></li>
+<li><p>The future-focused promotion of good practice and character development does not forego the need for detection, as undetected cheating could lead to future character erosion, but rather offers a multipronged response that serves as more effective than only focusing on prevention or prescription; a fact that mental health scholars have known for some time (e.g., LaMontagne et al., 2014) [2]...DQ...</p></li>
+</ul>
+
+<p><strong>ChatGPT 3.5 Summary</strong></p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<ul>
+<li>Cheating among students has been a persistent issue, and traditional detection methods have proven ineffective in many cases.</li>
+<li>Previous examples, such as papermills and contract cheating, have challenged educational institutions to ensure authenticity in student work.</li>
+<li>The character of students has been proposed as a solution to combat cheating, emphasizing the importance of good leadership.</li>
+<li>Teacher leadership plays a crucial role in influencing students&#39; engagement in effective learning practices and discouraging cheating.</li>
+<li>Effective teacher leadership can help students use AI tools like ChatGPT-3 for learning by providing guidance, promoting critical thinking, offering feedback, and encouraging collaboration.</li>
+<li>Cultivating moral character in students is essential to prevent prospective cheating or misuse of AI tools.</li>
+<li>Teacher role modeling, leadership development opportunities, and ethics training can help build critical thinkers with a strong moral compass.</li>
+<li>Embedding effective leadership opportunities into the core curriculum can serve as an antidote to the convenience offered by difficult-to-detect cheating practices.</li>
+<li>Promoting good practice and character development should be combined with detection measures to ensure long-term ethical behavior and prevent erosion of character.</li>
+<li>Taking a multi-pronged approach that focuses on prevention, prescription, and character development is more effective than solely relying on prevention methods.</li>
+<li>The promotion of good practice and character development aligns with the insights of mental health scholars.</li>
+</ul>
+
+<p><strong>Sources:</strong></p>
+
+<ol>
+<li><p>Crawford, J. (2023). Editorial: The need for good leaders in higher education. <em>Journal of University Teaching and Learning Practice, 20</em>(1), 1-7. <a href="https://doi.org/10.53761/1.20.01.01">https://doi.org/10.53761/1.20.01.01</a></p></li>
+<li><p>LaMontagne, A. D., Martin, A., Page, K. M., Reavley, N. J., Noblet, A. J., Milner, A. J., ... &amp; Smith, P. M. (2014). Workplace mental health: developing an integrated intervention approach. <em>BMC Psychiatry, 14</em>(1), 1-11.</p></li>
+</ol>
+
+<h2 id="toc_31">ChatGPT as the potential to create better flow</h2>
+
+<p><strong>ChatGPT 3.5 Summary</strong></p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<ul>
+<li>University lecturers can envision potential benefits of using ChatGPT-3 for students, such as supporting the facilitation of a flow state.</li>
+<li>Flow refers to a state of immersive engagement in an activity, like assignment writing, where time passes quickly and the task is enjoyable.</li>
+<li>Completing written assignments already imposes a cognitive load on students, compounded by deadlines and academic pressures.</li>
+<li>While using ChatGPT-3 may not directly induce a flow state, it can contribute to creating an environment conducive to achieving flow.</li>
+<li>ChatGPT-3 can reduce the cognitive load, increase motivation, and facilitate a sense of flow, leading to a more positive and rewarding writing experience.</li>
+<li>In the contemporary learning context, ChatGPT-3 can be utilized for tasks like creating essay plans, grammar checking, generating content suggestions, and filling missing information.</li>
+<li>By freeing students from cognitive demands, ChatGPT-3 can help them immerse themselves fully in the task and promote critical thinking.</li>
+<li>With appropriate assessment and curriculum design, using AI tools like ChatGPT-3 can enable students to engage more deeply with their learning and inquire more extensively into the content.</li>
+<li>This deeper focus on learning can lead to enhanced critical thinking and a richer learning experience.</li>
+</ul>
+
+<h2 id="toc_32">ChatGPT as the potential to support student’s basic psychological needs</h2>
+
+<p><strong>ChatGPT 3.5 Summary</strong></p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<ul>
+<li>ChatGPT-3 has the potential to support students in meeting their basic psychological needs of autonomy, competence, and relatedness, which can enhance their self-determination and academic motivation.</li>
+<li>By providing a sense of control over their writing, ChatGPT-3 can fulfill students&#39; need for autonomy and psychological autonomy.</li>
+<li>Instead of replacing students&#39; voices, ChatGPT-3 can be used to support and guide students in their academic writing, allowing them to maintain their individuality.</li>
+<li>ChatGPT-3 can enhance students&#39; feelings of competence by equipping them with the necessary skills and resources for writing assignments.</li>
+<li>Using ChatGPT-3 for written assignments can contribute to students&#39; self-determination by giving them more control over their writing process and outcomes.</li>
+<li>ChatGPT-3 enables students to generate ideas, structure their writing, and receive feedback, leading to increased autonomy, mastery, motivation, and engagement with the writing task.</li>
+<li><em>It is crucial to note that while ChatGPT-3 can be beneficial, it should not replace the development of students&#39; own writing skills and critical thinking abilities.</em>
+
+<ul>
+<li>Emphasis added by me...This text is from a ChatGPT 3 response that was quoted in the article&#39;s original text... </li>
+</ul></li>
+<li>ChatGPT-3 has the potential to foster a sense of relatedness for university students by providing real-time support, feedback, help, and suggestions.</li>
+<li>In a context where students often experience loneliness and isolation, ChatGPT-3 can partially address this by offering support during times when human assistance is unavailable, without aiming to replace human interaction.</li>
+</ul>
+
+<h2 id="toc_33">ChatGPT as the student assistant, rather than the cheating aid</h2>
+
+<p><strong>ChatGPT 3.5 Summary</strong></p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<ul>
+<li>Using ChatGPT-3 for written assignments can help students build confidence and encourage a culture of formative feedback.</li>
+<li>ChatGPT-3 can support students in generating high-quality content, exploring different writing approaches, and improving efficiency, leading to increased confidence and engagement.</li>
+<li><em>However, it is important to remember that ChatGPT-3 is not a substitute for the feedback and guidance of an experienced instructor.</em>
+
+<ul>
+<li>Emphasis added by me...This text is from a ChatGPT 3 response that was quoted in the article&#39;s original text...</li>
+</ul></li>
+<li>Critical evaluation and questioning of ChatGPT-3&#39;s output are necessary, as it still requires a critical reader to ensure the accuracy and validity of the generated content.</li>
+<li><em>While students are accepting and benefiting from chatbots like ChatGPT, using it solely for summative results carries risks and may reinforce existing views rather than encouraging critical thinking.</em>
+
+<ul>
+<li>Emphasis added by me...</li>
+</ul></li>
+<li>Instead, ChatGPT can be used as a tool to improve the quality of student submissions by requiring them to carefully construct prompts, evaluate results, and seek formative feedback from institutional tutors.</li>
+<li>By engaging students in the evaluation of ChatGPT&#39;s output and ensuring the final result aligns with their ideas and approach, it can serve as a form of &quot;soft help&quot; and support their development.</li>
+<li>In the context of assessment, ChatGPT and similar AI chatbots can provide opportunities for students to seek feedback, challenge their assumptions, and promote self-awareness and critical thinking.</li>
+</ul>
+
+<h2 id="toc_34">Conclusion</h2>
+
+<ul>
+<li>ChatGPT can be encouraged in the same way software tools like Grammarly can be used to support learning (Thi &amp; Nikolov, 2022) [1]...DQ...</li>
+</ul>
+
+<p><strong>Sources:</strong></p>
+
+<ol>
+<li>Thi, N. K., &amp; Nikolov, M. (2022). How teacher and Grammarly feedback complement one another in Myanmar EFL students’ writing. <em>The Asia-Pacific Education Researcher, 31</em>(6), 767-779. <a href="https://doi.org/10.1007/s40299-021-00625-2">https://doi.org/10.1007/s40299-021-00625-2</a></li>
+</ol>
+
+<h2 id="toc_35">ChatGPT 3.5 Summary</h2>
+
+<p><strong>Model:</strong> ChatGPT 3.5</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p><strong>Prompt:</strong> Can you read the PDF at this URL: https://ro.uow.edu.au/cgi/viewcontent.cgi?article=3180&amp;context=jutlp and summarize it into a few succinct and easy to understand and read bullet points?</p>
+
+<p><strong>Response:</strong> </p>
+
+<p>Here are the main points from the PDF titled &quot;Leadership is needed for ethical ChatGPT: Character, assessment, and learning using artificial intelligence (AI)&quot;:</p>
+
+<ol>
+<li><p>The paper discusses the impact of OpenAI&#39;s ChatGPT-3, an AI-powered chatbot, on higher education. It has raised concerns about the authenticity of student work and potential misuse for plagiarism.</p></li>
+<li><p>The authors propose that educators can leverage AI tools like ChatGPT to build supportive learning environments for students who have cultivated good character. These students know how to use ChatGPT ethically and can engage effectively with the application.</p></li>
+<li><p>The paper acknowledges the existing literature on plagiarism and academic integrity, and considers leadership as a root support mechanism, character development as an antidote, and authentic assessment as an enabler.</p></li>
+<li><p>While ChatGPT can be used to cheat on university exams, it can also be used to support deeper learning and better learning outcomes for students.</p></li>
+<li><p>The authors argue that effective teacher leadership is needed to develop student character so they use ChatGPT for good, rather than for personal benefit.</p></li>
+<li><p>ChatGPT can create new and innovative authentic assessment in higher education.</p></li>
+<li><p>ChatGPT offers students the opportunity to simplify the learning process to create less distraction, and more flow.</p></li>
+<li><p>The paper discusses the history of AI and the advent of ChatGPT, its strengths and weaknesses, and the opportunities it presents in higher education.</p></li>
+<li><p>The authors argue that it is character-based leadership development that will support a response to the fear of cheating, not purely detection.</p></li>
+<li><p>They also discuss opportunities for authentic assessment using the web application and conclude by discussing what this means in the context of their guiding research question, &quot;What are the opportunities of ChatGPT in higher education practice?&quot;</p></li>
+</ol>
+
+<p><strong>Prompt:</strong> Can you elaborate a bit on point 10: &quot;They also discuss opportunities for authentic assessment using the web application and conclude by discussing what this means in the context of their guiding research question, &quot;What are the opportunities of ChatGPT in higher education practice?&quot;&quot;</p>
+
+<p><strong>Note:</strong> ChatGPT did not quite give me the response I was looking for. I should have clarified that I was referring to its previous response...</p>
+
+<p><strong>Response:</strong> </p>
+
+<p>In the context of their guiding research question, &quot;What are the opportunities of ChatGPT in higher education practice?&quot;, the authors elaborate on the potential for authentic assessment using the web application. Here are the key points:</p>
+
+<ol>
+<li><p>ChatGPT can be used to create new and innovative forms of authentic assessment in higher education. This means that the AI tool can be used to design assessments that reflect real-world tasks and challenges, thereby enhancing the relevance and applicability of the learning experience.</p></li>
+<li><p>The authors suggest that ChatGPT can be used to support deeper learning and flow states, which can enhance student autonomy and well-being. This could potentially lead to better learning outcomes and a more engaging learning experience.</p></li>
+<li><p>The authors argue that the fear of cheating should not be addressed purely through detection. Instead, they propose a character-based leadership development approach. This means that educators should focus on developing students&#39; character so that they use ChatGPT ethically and responsibly.</p></li>
+<li><p>The authors acknowledge that while ChatGPT can be used to cheat, it can also be used to support learning. They suggest that the tool can be used to help students remove distractions from their studies, thereby supporting deeper learning.</p></li>
+<li><p>The authors conclude by suggesting that the opportunities of ChatGPT in higher education practice are significant and should be explored further. They argue that the tool can be used to enhance the learning experience, provided that it is used ethically and responsibly.</p></li>
+</ol>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_36">05-07 Thinking about our Assessments in the Age of Artificial Intelligence</h1>
+
+<p><strong>URL:</strong> <a href="https://sites.tufts.edu/teaching/2023/01/31/thinking-about-our-assessments-in-the-age-of-artificial-intelligence-ai/">https://sites.tufts.edu/teaching/2023/01/31/thinking-about-our-assessments-in-the-age-of-artificial-intelligence-ai/</a></p>
+
+<p><strong>Authors:</strong> Carolin Cardamone</p>
+
+<p><strong>Date:</strong> January 31, 2023</p>
+
+<p><strong>Date Accessed:</strong> May 27, 2023</p>
+
+<p><strong>Website:</strong> Tufts University</p>
+
+<hr>
+
+<h2 id="toc_37">ChatGPT Summary</h2>
+
+<p><strong>Model:</strong> ChatGPT 4 with Link Reader plugin</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p><strong>Note:</strong> Bold and emphasis text formatting is added by me...</p>
+
+<p>Here are the main points from the article titled &quot;Thinking about our assessments in the age of artificial intelligence (AI)&quot;:</p>
+
+<ol>
+<li><p>The authors discuss the impact of AI chatbots like ChatGPT on education, prompting educators to rethink their teaching, learning, and assessment strategies.</p></li>
+<li><p>They propose a series of strategies for integrating AI into classrooms, including <strong>embracing authentic assessments</strong>, creating social learning opportunities, focusing on process over product, asking students to get creative, being transparent about expectations for AI use, having students explore AI tools, and getting creative with technology.</p></li>
+<li><p>The authors suggest that instead of trying to battle against AI, educators should consider how these systems can help students learn and revise their writing, guide studying, answer questions, search references, and reflect on and expand their ideas.</p></li>
+<li><p>They also encourage educators to explore new AI tools and keep in mind that their capabilities are rapidly evolving.</p></li>
+<li><p>The authors conclude by stating that AI provides an exciting opportunity to reimagine a more resilient, equitable, and creative system of assessment.</p></li>
+</ol>
+
+<p>In a short paragraph:</p>
+
+<p>The article &quot;Thinking about our assessments in the age of artificial intelligence (AI)&quot; discusses the impact of AI chatbots like ChatGPT on education and proposes strategies for integrating AI into classrooms. These strategies include embracing authentic assessments, creating social learning opportunities, focusing on process over product, asking students to get creative, being transparent about expectations for AI use, having students explore AI tools, and getting creative with technology. The authors suggest that AI can help students learn and revise their writing, guide studying, answer questions, search references, and reflect on and expand their ideas. They encourage educators to explore new AI tools and consider AI as an opportunity to reimagine a more resilient, equitable, and creative system of assessment.</p>
+
+<p><strong>I asked ChatGPT for some more information on &quot;embracing authentic assessments from point 2...</strong></p>
+
+<p>The five-part framework for integrating AI chatbots into classrooms, as proposed by the author, is as follows:</p>
+
+<ol>
+<li><p><strong>Embrace Authentic Assessments:</strong> The author suggests refocusing course activities so that students can apply their learning to real-world contexts and problems, which can positively influence both motivation and long-term memory. Authentic assessments teach students how to approach multifaceted, complex questions where there is not always a right answer, and develop their analytical skills. One example given is engaging students in creating a portfolio of their work with critical reflections on how course experiences and activities have impacted their learning and, if relevant, the impact on the communities in which they are situated. A learning portfolio is a visible way to help students develop metacognitive (thinking about thinking) skills, become critical thinkers, and open a space for reflective dialogue with the instructor to track and adjust their learning progress.</p></li>
+<li><p><strong>Create Social Learning Opportunities:</strong> The author highlights the importance of social interactions for learning. Group activities with well-designed questions or prompts can provide students the opportunity to articulate and challenge their own understanding of concepts, integrate other perspectives, and reveal gaps in their knowledge. They can also motivate students to come prepared to engage in these activities with their peers.</p></li>
+<li><p><strong>Focus on Process Over Product:</strong> Traditionally, the end product of a paper or project has carried most of the weight for assessing learning. As AI improves, and it will improve rapidly, reframing our priorities by weighting process and value, revision and improvement more heavily will be important. When designing a writing assignment or a project, instructors might break it into smaller components that assess skill development at each stage, using self and peer feedback submitted with changes prior to instructor feedback.</p></li>
+<li><p><strong>Ask Students to Get Creative:</strong> Projects that engage students in thinking beyond the traditional disciplinary modes of communication can give students valuable experience translating dense concepts for different audiences. Consider alternative models for students to express their learning, such as conference posters, information graphics, podcasts, maps, artwork, storyboards, song writing, poetry, or research presentations.</p></li>
+<li><p><strong>Be Transparent About Your Expectations for the Use of AI:</strong> One of the easiest ways to encourage authentic engagement with course activities and to discourage academic dishonesty is to be transparent about your expectations. Include a statement in your syllabus that tells students what is (and is not) allowed in your course. Be explicit about how students should cite the work of others and a policy for citing the use of AI tools in learning or in their work.</p></li>
+</ol>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_38">05-08 A Review of Artificial Intelligence in Education</h1>
+
+<p><strong>URL:</strong> <a href="https://www.hindawi.com/journals/complexity/2021/8812542/">https://www.hindawi.com/journals/complexity/2021/8812542/</a></p>
+
+<p><strong>DOI:</strong> <a href="https://doi.org/10.1155/2021/8812542">https://doi.org/10.1155/2021/8812542</a></p>
+
+<p><strong>Authors:</strong> Xuesong Zhai, Xiaoyan Chu, Ching Sing Chai, Morris Siu Yung Jong, Andreja Istenic, Michael Spector, Jia-Bao Liu, Jing Yuan, Yan Li</p>
+
+<p><strong>Date:</strong> January 18, 2021</p>
+
+<p><strong>Cite:</strong></p>
+
+<p>Cai, N., Zhai, X., Chu, X., Chai, C. S., Jong, M. S. Y., Istenic, A., Spector, M., Liu, J. B., Yuan, J., &amp; Li, Y. (2021). A Review of Artificial Intelligence (AI) in Education from 2010 to 2020. <em>Complexity, 2021</em>, 8812542. <a href="https://doi.org/10.1155/2021/8812542">https://doi.org/10.1155/2021/8812542</a></p>
+
+<hr>
+
+<h2 id="toc_39">ChatGPT Summary</h2>
+
+<p><strong>Model:</strong> ChatGPT 4 with Link Reader plugin</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p><strong>Prompt:</strong> Can you summarize this pdf at this url: https://downloads.hindawi.com/journals/complexity/2021/8812542.pdf into a few succinct easy to understand bullet points?</p>
+
+<p><strong>Response:</strong></p>
+
+<p>Here are the main points from the PDF titled &quot;A Review of Artificial Intelligence (AI) in Education from 2010 to 2020&quot;:</p>
+
+<ol>
+<li><p>The paper provides a content analysis of studies to understand how AI has been applied in the education sector and to explore potential research trends and challenges of AI in education.</p></li>
+<li><p>The authors analyzed 100 papers selected from the education and educational research category of the Social Sciences Citation Index database from 2010 to 2020.</p></li>
+<li><p>The research questions in the analyzed studies were classified into three layers: development layer (classification, matching, recommendation, and deep learning), application layer (feedback, reasoning, and adaptive learning), and integration layer (affect computing, role-playing, immersive learning, and gamification).</p></li>
+<li><p>The paper identifies four research trends for further investigation: Internet of Things, swarm intelligence, deep learning, and neuroscience, as well as an assessment of AI in education.</p></li>
+<li><p><strong>The authors also discuss challenges that may arise from the use of AI in education, including inappropriate use of AI techniques, changing roles of teachers and students, and social and ethical issues.</strong></p>
+
+<ul>
+<li>The bold formatting is me...I asked ChatGPT 4 to elaborate on this point...See the next prompt...</li>
+</ul></li>
+<li><p>The paper concludes by providing insights into the use of AI in the education domain, which can help strengthen the theoretical foundation of AI in education and provide a promising channel for educators and AI engineers to carry out further collaborative research.</p></li>
+</ol>
+
+<p><strong>Prompt:</strong> Can you elaborate on this point from your previous response: &quot;The authors also discuss challenges that may arise from the use of AI in education, including inappropriate use of AI techniques, changing roles of teachers and students, and social and ethical issues.&quot;</p>
+
+<p><strong>Response:</strong> </p>
+
+<p>The authors of the paper discuss several challenges that may arise from the use of AI in education:</p>
+
+<ol>
+<li><p>Inappropriate Use of AI Techniques: The authors note that students might not always use AI techniques appropriately for a specific learning context. This could lead to negative attitudes towards learning. For instance, students might rely too heavily on AI tools for tasks they should be doing themselves, or they might use AI tools in ways that don&#39;t actually support their learning.</p></li>
+<li><p>Changing Roles of Teachers and Students: The authors suggest that the advancement of AI could potentially change the roles of teachers and students. For example, as AI tools become more capable of providing personalized instruction, the role of the teacher might shift from direct instruction to more of a facilitator or guide. This could also affect how students interact with teachers and with each other.</p></li>
+<li><p>Social and Ethical Issues: The authors also highlight potential social and ethical issues related to the use of AI in education. These could include concerns about data privacy and security, the potential for bias in AI algorithms, and the ethical implications of using AI to make decisions about students&#39; learning.</p></li>
+</ol>
+
+<p>The authors suggest that these challenges need to be carefully considered and addressed as AI continues to be integrated into educational practices. They also emphasize the importance of ongoing research to better understand these issues and develop strategies for addressing them.</p>
+
+<p><strong>Due to a 25 prompt limitation every 3 hours for ChatGPT 4 model, I decided to use the unlimited (I think) ChatGPT 3.5 model for the next prompt...</strong></p>
+
+<p><strong>Model:</strong> ChatGPT 3.5</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p><strong>Prompt:</strong> What is swarm intelligence in the context of education and learning?</p>
+
+<p><strong>Response:</strong> </p>
+
+<p>Swarm intelligence in the context of education and learning refers to the application of principles inspired by the collective behavior of social insect colonies, such as ants, bees, and termites, to enhance the learning process and educational outcomes.</p>
+
+<p>Swarm intelligence recognizes that social insect colonies exhibit highly organized and efficient behaviors without the need for central control or individual intelligence. Instead, they rely on decentralized decision-making and coordination among large numbers of relatively simple individuals. This concept can be applied to education to foster collaborative learning, problem-solving, and knowledge sharing among students.</p>
+
+<p>In an educational context, swarm intelligence can manifest in various ways:</p>
+
+<ol>
+<li><p>Collaborative Learning: Swarm intelligence emphasizes the power of collaboration among students. It encourages group work, discussions, and knowledge sharing, allowing students to leverage the collective intelligence of the group to solve problems and learn from each other.</p></li>
+<li><p>Peer-to-Peer Learning: Similar to how social insects communicate and learn from each other, swarm intelligence in education promotes peer-to-peer learning. Students can teach and mentor each other, fostering a supportive learning environment where knowledge is shared horizontally.</p></li>
+<li><p>Distributed Decision-Making: Swarm intelligence recognizes that decision-making can be distributed among multiple individuals. In the context of education, this means involving students in decision-making processes, such as choosing learning activities, setting goals, and determining project directions. It empowers students and encourages autonomy.</p></li>
+<li><p>Adaptive Learning: Swarm intelligence acknowledges the adaptive nature of social insects. In education, this can be applied through personalized and adaptive learning systems that tailor educational content and approaches to the individual needs and learning styles of each student.</p></li>
+<li><p>Collective Problem-Solving: Swarm intelligence emphasizes the power of collective problem-solving. By engaging students in collaborative projects and real-world challenges, it encourages them to work together, pool their knowledge and skills, and find innovative solutions as a group.</p></li>
+</ol>
+
+<p>Swarm intelligence in education aims to create an environment that promotes active engagement, critical thinking, collaboration, and creativity. By harnessing the collective intelligence and collaborative efforts of students, it seeks to enhance the learning experience and improve educational outcomes. </p>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_40">06 - In discussion with an Associate Dean</h1>
+
+<hr>
+
+<p><strong>META DATA START</strong></p>
+
+<p><strong>URL:</strong> https://twitter.com/dompates/status/1615986097875570689?s=20&amp;t=4eFLO_vWtnEnZftIxuT6PA</p>
+
+<p><strong>Format:</strong> Tweet</p>
+
+<p><strong>Date:</strong> January 19, 2023</p>
+
+<p><strong>Author:</strong> Dan Pates</p>
+
+<p><strong>META DATA END</strong></p>
+
+<hr>
+
+<ul>
+<li>This is a tweet</li>
+</ul>
+
+<h2 id="toc_41">Initial Tweet:</h2>
+
+<p>In discussion with an Associate Dean yesterday, they asked me (I paraphrase) ‘Is it the case that #ChatGPT forces us to make changes that we long should have been making anyway?’ (ie better assessment design). ‘Yes’, I replied. Very much so. #altc #AI</p>
+
+<h2 id="toc_42">ChatGPT 3.5 Summary</h2>
+
+<p><strong>PD:</strong> May 29, 2023</p>
+
+<p><strong>Prompt:</strong> The text at the end of this prompt is from a Twitter thread...It is about an educator who heard their Dean say (paraphrased) that AI is making us change our assessments, changes that we probably should have done a while ago...Can you summarize this thread into a couple of main points...Here is the Twitter thread:...</p>
+
+<p><strong>Response:</strong></p>
+
+<p>From the Twitter thread, the main points can be summarized as follows:</p>
+
+<ul>
+<li>An Associate Dean posed a question about whether the use of ChatGPT necessitates changes in assessment design that should have been made earlier.</li>
+<li>The original poster responded affirmatively, stating that ChatGPT indeed prompts the need for better assessment design.</li>
+<li>Some individuals expressed enthusiasm for creative assessment approaches.</li>
+<li>There were discussions about the potential benefits and impacts of ChatGPT in education.</li>
+<li>Criticisms were raised regarding the labor conditions of workers involved in developing ChatGPT and the environmental impact of using such AI tools.</li>
+<li>Light-hearted comments were made about using ChatGPT to ask questions.</li>
+</ul>
+
+<p>Overall, the thread highlights the recognition that ChatGPT&#39;s existence brings attention to the importance of improving assessment design and encourages discussion about the implications and ethical considerations surrounding its use in education.</p>
+
+<p>Please note that this is a condensed summary of the thread, and additional context and details may be present in the original Twitter conversation.</p>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_43">05-03 20 Ways Teachers Can Use ChatGPT</h1>
+
+<p><strong>URL:</strong> <a href="https://www.weareteachers.com/chatgpt-for-teachers/">https://www.weareteachers.com/chatgpt-for-teachers/</a></p>
+
+<p><strong>Authors:</strong> Jill Staake</p>
+
+<p><strong>Date:</strong> March 13, 2023</p>
+
+<p><strong>Date Accessed:</strong> May 27, 2023</p>
+
+<p><strong>Website:</strong> We Are Teachers</p>
+
+<hr>
+
+<h2 id="toc_44">ChatGPT Summary</h2>
+
+<p><strong>Model:</strong> ChatGPT 4 with Link Reader plugin</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p>Here are the main points from the article titled &quot;20 Ways Teachers Can Use ChatGPT to Make Their Lives Easier&quot;:</p>
+
+<ol>
+<li><p>The article discusses how teachers can use ChatGPT, an AI chatbot, as a tool to make their jobs easier and enhance student learning.</p></li>
+<li><p>The author suggests that teachers should not fear AI like ChatGPT, but rather teach students when it&#39;s appropriate to use it and when it&#39;s not, emphasizing the importance of ethical use.</p></li>
+<li><p>The article provides 20 ways teachers can use ChatGPT, including using it as a smarter search engine, generating reading passages, creating writing prompts, writing notes to parents, providing examples, creating math problems, generating basic lesson plans, and preparing for tough conversations.</p></li>
+<li><p>The author also suggests using ChatGPT to generate questions for discussions or essays, help with recommendation letters, make lists, stay on top of new slang, debate the bot, build essay outlines, ask for writing edits and suggestions, practice peer feedback, and check answers.</p></li>
+<li><p>The article concludes by encouraging teachers to share their own ideas on how to use ChatGPT in the classroom, emphasizing that AI tools like ChatGPT can be beneficial when used responsibly and ethically.</p></li>
+</ol>
+
+<p><strong>Further prompt to ChatGPT 3.5 on one section of the article about how to discuss how to use ChatGPT with students</strong></p>
+
+<p><strong>Model:</strong> ChatGPT 3.5</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p><strong>Prompt:</strong> Can you summarize this text into a few succinct and easy to read bullet points: &quot;Don’t keep quiet about ChatGPT and hope your students never find out about it. Instead, address it head on. Discuss the ethics of AI with kids, and hear their thoughts. Your classroom probably already has a technology policy. (If not, it’s time to make one.) Add some rules about AI bots. Help kids understand that there are times when it’s OK to give one a try, and times when it’s flat-out cheating. For instance:...&quot;</p>
+
+<p><strong>Response:</strong></p>
+
+<ul>
+<li>Address the presence of ChatGPT and discuss the ethics of AI with students.</li>
+<li>Establish a technology policy in the classroom that includes rules about AI bots.</li>
+<li>Clearly communicate that copying answers from ChatGPT is considered cheating.</li>
+<li>Encourage students to ask ChatGPT for clarification on topics they don&#39;t understand.</li>
+<li>Emphasize that teachers can identify changes in writing style and use anti-plagiarism tools.</li>
+<li>Allow ChatGPT to inspire students&#39; own writing, but discourage direct copying.</li>
+<li>Remind students that not all answers from ChatGPT are guaranteed to be correct.</li>
+<li>Teach students to check sources and provide them for their work to ensure accuracy.</li>
+</ul>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_45">05-09 The Need for Good Leaders in Higher Education</h1>
+
+<p><strong>URL:</strong> https://ro.uow.edu.au/jutlp/vol20/iss1/01/</p>
+
+<p><strong>DOI:</strong> https://doi.org/10.53761/1.20.01.01</p>
+
+<p><strong>Authors:</strong> Joseph Crawford</p>
+
+<p><strong>Date:</strong> 2023</p>
+
+<p><strong>Cite:</strong></p>
+
+<p>Crawford, J. (2023). Editorial: The Need for Good Leaders in Higher Education. Journal of University Teaching &amp; Learning Practice, 20(1), 1-7. https://doi.org/10.53761/1.20.01.01</p>
+
+<hr>
+
+<h2 id="toc_46">ChatGPT Summary</h2>
+
+<p><strong>Model:</strong> ChatGPT 4 with Link Reader plugin</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p><strong>Prompt:</strong> Can you summarize this pdf at this url: https://ro.uow.edu.au/cgi/viewcontent.cgi?article=3136&amp;context=jutlp into a few succinct easy to understand bullet points?</p>
+
+<p><strong>Response:</strong></p>
+
+<p>Here are the main points from the PDF titled &quot;Editorial: The Need for Good Leaders in Higher Education&quot;:</p>
+
+<ol>
+<li><p>The paper discusses the ongoing ethical, social, and moral crises in higher education, and the increasing demands on university leaders and managers to navigate these challenges.</p></li>
+<li><p><strong>The author emphasizes the need for good leadership in higher education, particularly in light of changing student demographics, unethical practices, and the rise of technologies that can facilitate academic dishonesty.</strong></p>
+
+<ul>
+<li>The bold formatting is me...I asked ChatGPT 4 to elaborate on this point...See the next prompt...</li>
+</ul></li>
+<li><p>The paper highlights the lack of dedicated research space for educational leadership in higher education and announces the Journal of University Teaching &amp; Learning Practice&#39;s expansion to include educational leadership research.</p></li>
+<li><p>The author also notes the lack of focus on educational psychology at the university level in most educational psychology journals, and announces the Journal&#39;s creation of a section dedicated to this topic.</p></li>
+<li><p>The paper calls for more research into effective leadership and management practices in higher education, as well as a deeper understanding of the psychological processes underlying tertiary learning and instruction practices.</p></li>
+<li><p>The author concludes by encouraging scholars to contribute to these new sections of the Journal, in order to better understand and improve leadership and psychological processes in higher education.</p></li>
+</ol>
+
+<p><strong>Prompt:</strong> Can you elaborate on point number 2 from your previous response: &quot;The author emphasizes the need for good leadership in higher education, particularly in light of changing student demographics, unethical practices, and the rise of technologies that can facilitate academic dishonesty.&quot;?</p>
+
+<p><strong>Response:</strong> </p>
+
+<p>In the paper, the author emphasizes the need for good leadership in higher education due to several factors:</p>
+
+<ol>
+<li><p>Changing Student Demographics: The author notes that the student base is rapidly changing. Students are juggling more responsibilities, have diverse motivations for studying, and are less homogeneous than the once-typical nineteen-year-old recent high school graduate. This requires leaders who can adapt to these changes and effectively support a diverse student body.</p></li>
+<li><p>Unethical Practices: The author mentions that there have been repeated stories of unethical practices of leadership in higher education. This includes, for example, the rise of software that makes cheating easier and opportunities to outsource dissertations. The author argues that good leaders are needed to sustain teams and build good educational outcomes in the face of these challenges.</p></li>
+<li><p>Technological Advancements: The rise of technologies that can facilitate academic dishonesty is also a concern. The author suggests that good leaders are needed to navigate these technological changes and ensure they are used ethically and effectively to enhance learning rather than undermine it.</p></li>
+</ol>
+
+<p>The author argues that these challenges highlight the need for good leadership in higher education. Good leaders are seen as crucial for navigating these issues, sustaining teams, and building good educational outcomes.</p>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_47">OECD - ChatGPT and the Future of Education</h1>
+
+<hr>
+
+<p><strong>META DATA START</strong></p>
+
+<p><strong>URL:</strong> <a href="https://www.oecd-events.org/ai-wips-2023/onlinesession/e0efe222-91b6-ed11-994c-000d3a469307">https://www.oecd-events.org/ai-wips-2023/onlinesession/e0efe222-91b6-ed11-994c-000d3a469307</a></p>
+
+<p><strong>Format:</strong> Video</p>
+
+<p><strong>Date:</strong> March 28, 2023</p>
+
+<p><strong>Event:</strong> OECD - International Conference on AI in Work, Innovation, Productivity and Skills</p>
+
+<p><strong>META DATA END</strong></p>
+
+<hr>
+
+<p><strong>URL:</strong> <a href="https://www.oecd-events.org/ai-wips-2023/session/e0efe222-91b6-ed11-994c-000d3a469307/chatgpt-pisa-and-the-future-of-education">https://www.oecd-events.org/ai-wips-2023/session/e0efe222-91b6-ed11-994c-000d3a469307/chatgpt-pisa-and-the-future-of-education</a></p>
+
+<p><strong>Event:</strong> OECD - International Conference  on AI in Work, Innovation, Productivity and Skills - Virtual</p>
+
+<p><strong>Event Website:</strong> <a href="https://www.oecd-events.org/ai-wips-2023#bl-7d0b3f5b-c3a6-4b40-8749-390d707a7040">https://www.oecd-events.org/ai-wips-2023#bl-7d0b3f5b-c3a6-4b40-8749-390d707a7040</a></p>
+
+<ul>
+<li><p>Where is AI in the skills that we test for</p>
+
+<ul>
+<li>4:50
+
+<ul>
+<li>PEAC test
+
+<ul>
+<li>Adult test</li>
+</ul></li>
+<li>PISA
+
+<ul>
+<li>15 year olds 
+
+<ul>
+<li>reading, math, and science</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p>Is Education loosing the race to technology</p>
+
+<ul>
+<li>Report to checkout
+
+<ul>
+<li>6:30</li>
+</ul></li>
+</ul></li>
+<li><p>PEAC Test with AI</p>
+
+<ul>
+<li>2016
+
+<ul>
+<li>AI at 50th percentitle...half adults above, half below</li>
+</ul></li>
+<li>2021
+
+<ul>
+<li>AI at 90th percentile</li>
+</ul></li>
+<li>2026
+
+<ul>
+<li>AI should do well on everything...</li>
+</ul></li>
+</ul></li>
+<li><p>PISA</p>
+
+<ul>
+<li>What 15 year olds can do in R, M, &amp; S (reading, mathematics, and science)</li>
+</ul></li>
+<li><p>Modalities</p>
+
+<ul>
+<li>LLM have difficulty with visual questions</li>
+</ul></li>
+<li><p>ChatGPT4 - should hit a minimum 80% on PISA...in all categories...17:50 (approximately)...</p></li>
+<li><p>Should the test system change</p></li>
+<li><p>Should students learn different skills in a world of AI...</p></li>
+<li><p>Andreas Schleicher</p>
+
+<ul>
+<li>22:45
+
+<ul>
+<li>The kind of things that have been easy to teach and easy to test have been digitized and automated and should really push us to think harder about what makes us human and how we complement and not substitute the artificial intelligence in our computer...</li>
+<li>Be careful that we don&#39;t becomes slaves to algorithms we don&#39;t fully understand...Paraphrase...</li>
+<li>Pocket calculators did not mean we didn&#39;t have to understand the fundamentals of math...</li>
+<li>Google maps doesn&#39;t mean we don&#39;t need a sense of orientation...</li>
+</ul></li>
+<li>23:59
+
+<ul>
+<li>Accumulation of knowledge doesn&#39;t really mean success...Instead in an AI world it is more important to know what you can do with what you know...</li>
+</ul></li>
+</ul></li>
+<li><p>Michele Bruniges</p>
+
+<ul>
+<li>24:55
+
+<ul>
+<li>We are at a tipping point...</li>
+<li>Question from Andreas
+
+<ul>
+<li>Should we allow students access to AI or prevent it for PISA testing</li>
+<li>Answer
+
+<ul>
+<li>AI is in the real world and so we should allow students access to it as a reflection of the real world...</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>30:53
+
+<ul>
+<li>Curriculum goes out of date which causes students to become dissengaged...</li>
+<li>Goal of educators is to develop curriculum that is relavent to today&#39;s society...</li>
+</ul></li>
+<li>31:36
+
+<ul>
+<li>Teaching students
+
+<ul>
+<li>Importance of digital skills
+Understanding how you use AI systems effectively (DQ)</li>
+</ul></li>
+<li>How do you focus on skills that AI is not good at
+
+<ul>
+<li>How do you know what those skills are...</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p>Andreas</p>
+
+<ul>
+<li>Will AI make teachers irrelavent because people can learn when they want and how they want or will teachers be needed to be coaches to guide learners through there learning...</li>
+</ul></li>
+<li><p>Michele</p>
+
+<ul>
+<li>Will AI improve or hinder education equity
+
+<ul>
+<li>Believes it will improve education equity...</li>
+</ul></li>
+<li>We would be doing students a disservice if we did not think carefully about the issues we are talking about...paraphrase...but close to a DQ...</li>
+</ul></li>
+<li><p>Michele</p>
+
+<ul>
+<li>43:43
+
+<ul>
+<li>The tendency in education is to let everyone&#39;s bit into the curriculum so that no one is offended...Paraphrase...</li>
+<li>Education must be much more agile...</li>
+</ul></li>
+</ul></li>
+<li><p>Andreas</p>
+
+<ul>
+<li>46:19
+
+<ul>
+<li>The OECD has an obligation to make sure PISA stays relevant as it is used as a gauge of student learning...Paraphrase...</li>
+</ul></li>
+</ul></li>
+<li><p>Polls taking during the presentation</p>
+
+<ul>
+<li>47:32
+
+<ul>
+<li>What students should be learning should be different
+
+<ul>
+<li>No - 5%</li>
+<li>A bit different - 55%</li>
+<li>Transformational - 45%</li>
+</ul></li>
+<li>Whether the roles of teachers should be different
+
+<ul>
+<li>No - 5%</li>
+<li>A bit different - 55%</li>
+<li>Transformational - 45%</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p>Michelle - On the transformational side</p></li>
+<li><p>Andreas - I think on the transformational side</p></li>
+<li><p>Audience Questions</p>
+
+<ul>
+<li>Question on Assessment
+
+<ul>
+<li>49:28
+
+<ul>
+<li>The kinds of measures included on these assessments may not be the best proxies for what we actually care about...
+
+<ul>
+<li>Michelle
+
+<ul>
+<li>PISA needs to change
+
+<ul>
+<li>Introduction of innovative domains</li>
+</ul></li>
+</ul></li>
+<li>Andreas
+
+<ul>
+<li>Currently literary skills are around can you distinquish fact from opinion...</li>
+<li>AI has opened the door to more innovative assessments...
+
+<ul>
+<li>MW comment...I agree...With AI making halucination comments with confidence it is important to teach students how to look at information critically...and to question information and not just accept it as it is...</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>55:19
+
+<ul>
+<li>Do we need to teach students things that they don&#39;t enjoy learning?
+
+<ul>
+<li>Michelle
+
+<ul>
+<li>We need to ensure students are passionate about learning...</li>
+</ul></li>
+<li>Andreas
+
+<ul>
+<li>We need to teach students how work at making the world a better place, and not just let an AI take care of everything for us...Paraphrase...</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h2 id="toc_48">ChatGPT 3.5 Summary of the Above Notes</h2>
+
+<p><strong>PD:</strong> May 29, 2023</p>
+
+<p><strong>Prompt:</strong> Can you summarize these notes...They are notes taking on a conference talk about AI and its effect on Education...Here are the notes:...</p>
+
+<p><strong>Response:</strong></p>
+
+<p>The conference talk discussed the impact of AI on education. Here&#39;s a summary of the key points:</p>
+
+<ul>
+<li><p>The discussion started with a question about where AI fits in the skills that are tested. The PEAC test, which focuses on adult skills, and PISA, which assesses 15-year-olds in reading, math, and science, were mentioned.</p></li>
+<li><p>The question of whether education is losing the race to technology was raised, and a report was suggested for further exploration.</p></li>
+<li><p><strong><mark>The PEAC Test with AI was highlighted, noting that in 2016, AI performed at the 50th percentile, but in 2021, it reached the 90th percentile. It was predicted that by 2026, AI should perform well across all areas.</mark></strong></p></li>
+<li><p>The PISA assessment, which evaluates what 15-year-olds can do in reading, mathematics, and science, was discussed.</p></li>
+<li><p>It was noted that individuals with low language and literacy skills may struggle with visual questions.</p></li>
+<li><p>The goal for ChatGPT4, an AI model, was set to achieve a minimum of 80% performance on the PISA test in all categories.</p></li>
+<li><p><strong><mark>The talk questioned whether the current testing system and curriculum should change to adapt to the AI era. It also raised the idea of teaching students different skills in a world influenced by AI.</mark></strong></p></li>
+<li><p>Andreas Schleicher, during his speech, emphasized the need to consider what makes us human and how we can complement AI instead of substituting it. He cautioned against becoming overly reliant on algorithms without full understanding.</p></li>
+<li><p><strong><mark>Michele Bruniges mentioned that education is at a tipping point and that students should be allowed access to AI during testing to reflect the real world.</mark></strong></p></li>
+<li><p>The need for relevant and up-to-date curriculum to keep students engaged was emphasized.</p></li>
+<li><p><strong><mark>Developing digital skills and understanding how to effectively use AI systems (Digital Intelligence) were considered important for students. Determining the skills AI is not good at was identified as a challenge.</mark></strong></p></li>
+<li><p>The role of teachers was discussed. It was debated whether AI would make teachers irrelevant or if they would transition into becoming coaches guiding learners through their education.</p></li>
+<li><p>The question of whether AI would improve or hinder education equity was raised. The speaker believed it would improve equity.</p></li>
+<li><p>The need for agility in education and careful consideration of the issues at hand was stressed.</p></li>
+<li><p>The importance of critically assessing information and not blindly accepting it due to AI&#39;s ability to generate convincing but false information was highlighted.</p></li>
+<li><p><strong><mark>Audience polls indicated that a significant portion favored a transformational change in what students should be learning and the role of teachers.</mark></strong></p></li>
+<li><p><strong><mark>During the audience question session, the discussion turned to assessment. The need to update assessments to better align with desired outcomes and the potential for more innovative assessments due to AI were mentioned.</mark></strong></p></li>
+<li><p><strong><mark>The question of whether students should be taught things they don&#39;t enjoy learning was raised. The importance of cultivating students&#39; passion for learning and teaching them to contribute positively to the world, rather than relying solely on AI, was emphasized.</mark></strong></p></li>
+</ul>
+
+<p>Overall, the conference talk explored the evolving role of AI in education, the need to adapt curriculum and assessment methods, and the importance of balancing AI with essential human skills and values. </p>
+
+<p><strong>Prompt:</strong> Can you further summarize your previous reponse to two overall key points or themes you found in your intial summary</p>
+
+<p><strong>Response:</strong> </p>
+
+<p>Certainly! Based on the initial summary, here are two key points or themes that emerge:</p>
+
+<ol>
+<li><p><strong>Balancing AI and Human Skills:</strong> The conference talk highlighted the need to strike a balance between AI and human skills in education. It emphasized that while AI can provide valuable tools and automation, it should complement human abilities rather than replace them entirely. The discussions revolved around identifying the skills AI excels at and determining the skills where human involvement is crucial. This theme underscores the importance of understanding what makes us human and fostering skills and attributes that AI cannot replicate.</p></li>
+<li><p><strong>Adapting Education for the AI Era:</strong> Another key point was the necessity of adapting education to meet the demands of an AI-driven world. The talk explored the need for changes in curriculum, assessment methods, and teaching approaches to align with the evolving landscape influenced by AI. There was an emphasis on incorporating digital skills and teaching students how to effectively navigate and critically evaluate AI-generated information. Additionally, the discussion raised questions about the role of teachers in guiding students&#39; learning journeys and the potential impact of AI on educational equity.</p></li>
+</ol>
+
+<p>Overall, these two key points reflect the ongoing dialogue on harnessing the potential of AI while ensuring that education remains relevant, engaging, and focused on developing skills that are uniquely human and essential for success in an AI-powered future.</p>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_49">02 - ChatGPT and the Future of Assessment in Higher Education</h1>
+
+<hr>
+
+<p><strong>META DATA START</strong></p>
+
+<p><strong>URL:</strong> <a href="https://dcad.webspace.durham.ac.uk/2023/01/24/ai-the-future-of-assessment-in-higher-education/">https://dcad.webspace.durham.ac.uk/2023/01/24/ai-the-future-of-assessment-in-higher-education/</a></p>
+
+<p><strong>Website:</strong> Durham University - Durham Centre for Academic Development</p>
+
+<p><strong>Author:</strong> Matt Wood</p>
+
+<p><strong>Date:</strong> February 2, 2023</p>
+
+<p><strong>Title:</strong> AI &amp; the Future of Assessment in Higher Education</p>
+
+<p>Youtube Video Info:</p>
+
+<p><strong>URL:</strong> <a href="https://www.youtube.com/watch?v=IIUAjF9Enr0&amp;t=2s">https://www.youtube.com/watch?v=IIUAjF9Enr0&amp;t=2s</a></p>
+
+<p><strong>Channel:</strong> Dr Matty Wood</p>
+
+<p><strong>Title:</strong> ChatGPT and the Future of Assessment in Higher Education</p>
+
+<p><strong>Date:</strong> January 10, 2023</p>
+
+<p><strong>META DATA END</strong></p>
+
+<hr>
+
+<p><strong>Author:</strong> Matty Wood</p>
+
+<p><strong>Date:</strong> 2023</p>
+
+<h2 id="toc_50">YouTube Video version</h2>
+
+<ul>
+<li>We over assess with essay writing in AG and to equate good essay writing with learning is problematic...DQ - 12:01</li>
+</ul>
+
+<p><strong>Article to Look Into</strong></p>
+
+<ul>
+<li>AI-assisted plagiarism? ChatGPT bot says it has an answer for that
+
+<ul>
+<li><a href="https://www.theguardian.com/technology/2022/dec/31/ai-assisted-plagiarism-chatgpt-bot-says-it-has-an-answer-for-that">https://www.theguardian.com/technology/2022/dec/31/ai-assisted-plagiarism-chatgpt-bot-says-it-has-an-answer-for-that</a></li>
+</ul></li>
+</ul>
+
+<h2 id="toc_51">Summary from ChatGPT4 Using the Link Reader Plugin</h2>
+
+<p>The webpage you provided is a blog post from the Durham Centre for Academic Development, titled &quot;AI &amp; the Future of Assessment in Higher Education&quot;. Here&#39;s a summary of the key points:</p>
+
+<ul>
+<li><strong>AI in Higher Education:</strong> The author discusses the increasing role of AI in our everyday lives and its implications for higher education. AI is already being used in services like Grammarly and search engines, and its role in higher education is expanding to include adaptive learning systems, analysis of student scores, and chatbots for student support.</li>
+<li><p><strong>ChatGPT:</strong> The author discusses the potential of ChatGPT, a generative AI model developed by OpenAI, in higher education. ChatGPT can generate coherent and fluent human-like responses, which can be difficult to distinguish from human-written text.</p></li>
+<li><p><strong>Concerns &amp; Opportunities:</strong> The main concern about generative AI in higher education is its potential use in student assessment. Students could potentially use AI to generate passable essays with minimal effort or understanding of the topic. However, <strong><mark>the author also notes that generative AI could be a powerful tool for improving academic work if used appropriately</mark></strong>.</p></li>
+<li><p><strong>Detecting AI Writing:</strong> The author discusses the challenges of detecting AI-generated writing and the ethical issues surrounding the use of AI detection apps. They note that these tools will likely improve over time, making detection more difficult.</p></li>
+<li><p><strong>Harnessing AI in Teaching and Learning:</strong> The author suggests that generative AI could be used to improve teaching and learning in higher education. For example, it could be used to structure content, provide immediate feedback, and even help mark assignments.</p></li>
+<li><p><strong>Academic Integrity:</strong> The author emphasizes the importance of academic integrity and the need for students to understand and use AI tools appropriately.</p></li>
+<li><p><strong>Response to AI:</strong> The author suggests that higher education should embrace AI, educate students and staff about its capabilities and limitations, and use it to enhance teaching and learning. They also suggest that the rise of AI should prompt a reevaluation of assessment methods in higher education.</p></li>
+<li><p><strong>Conclusion:</strong> The author concludes that AI is already integral to modern society and higher education, and that it&#39;s important to educate students on how to use AI tools appropriately. They suggest that AI provides opportunities to enhance creativity and critical thinking, and that it&#39;s essential for higher education to engage with AI to remain relevant and prepare students for the future workforce.</p></li>
+</ul>
+
+<p><strong>I asked ChatGPT4 with the Link Reader plugin at a later date after the initial summary above to take this summary and summarize it further into 2 key points...</strong></p>
+
+<p><strong>PD:</strong> May 29, 2023</p>
+
+<p><strong>Prompt:</strong> Can you summarize this text down to two key points? Here is the text:...</p>
+
+<p><strong>Response:</strong></p>
+
+<ol>
+<li><p><strong>AI in Higher Education and Assessment</strong>: <strong><mark>The blog post discusses the increasing role of AI, particularly generative models like ChatGPT, in higher education. While there are concerns about AI&#39;s potential misuse in student assessments, the author believes that if used appropriately, AI could be a powerful tool for enhancing academic work, providing immediate feedback, and even assisting in marking assignments</mark></strong>.</p></li>
+<li><p><strong>Response to AI and Academic Integrity</strong>: <strong><mark>The author emphasizes the importance of academic integrity and the need for students to understand and use AI tools responsibly. They suggest that higher education should embrace AI, educate students and staff about its capabilities and limitations, and use it to enhance teaching and learning. The rise of AI should also prompt a reevaluation of assessment methods in higher education</mark></strong>.</p></li>
+</ol>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_52">05-00 ChatGPT 4 - Role of AI in Education</h1>
+
+<p><strong>Model:</strong> ChatGPT 4 with Bing</p>
+
+<p><strong>Date:</strong> May 27, 2023</p>
+
+<p><strong>Prompt:</strong> What is the role of AI in education in regards to assessment of students</p>
+
+<p><strong>Response:</strong> </p>
+
+<p>Artificial Intelligence (AI) has been playing an increasingly significant role in the field of education, particularly in the area of student assessment. As of my knowledge cut-off in September 2021, here are some ways AI has been utilized:</p>
+
+<ol>
+<li><p><strong>Automated grading</strong>: AI algorithms can evaluate and grade student work, including multiple-choice exams, fill-in-the-blank questions, and even more complex tasks like essays. This can save teachers significant time and ensure consistency in grading.</p></li>
+<li><p><strong>Personalized feedback</strong>: AI can provide individualized feedback to students based on their performance. This can help students understand where they&#39;re struggling and what they need to do to improve.</p></li>
+<li><p><strong>Adaptive learning systems</strong>: These systems use AI to assess a student&#39;s current knowledge level, learning pace, and learning style. The system then adjusts the learning material to best suit the student&#39;s needs. </p></li>
+<li><p><strong>Predictive analytics</strong>: AI can analyze student data to predict future performance and identify areas where a student may need extra help. This can enable early interventions to prevent students from falling behind.</p></li>
+<li><p><strong>Cheating detection</strong>: AI can also be used to detect anomalies in student behavior that could indicate cheating, such as unusual patterns in online test responses or suspicious activity during remote exams.</p></li>
+<li><p><strong>Competency-based assessments</strong>: AI can help create and grade assessments that measure specific skills or competencies, rather than rote memorization. This can provide a more accurate picture of a student&#39;s abilities.</p></li>
+<li><p><strong>Game-based assessments</strong>: AI can be used in educational games to both engage students and assess their skills in real-time. The AI can adapt the game based on the student&#39;s performance, providing a dynamic, interactive assessment tool.</p></li>
+</ol>
+
+<p>However, it&#39;s important to note that while AI can greatly assist in the assessment process, it&#39;s not a replacement for human educators. AI tools can sometimes struggle with understanding the nuances of human language and behavior, and the feedback and grading provided by a human teacher can often be more accurate and insightful. Additionally, there are ethical and privacy considerations to be taken into account when using AI in education.</p>
+
+<p>Please let me know if you want the most recent information or specific examples, and I can use my browsing tool to find that information.</p>
+
+<p><strong>Prompt:</strong> Use bing to find out how AI can be utilized in the context of Authentic Assessment to help students gather knowledge and enhance their learning experience as of 2023...</p>
+
+<p><strong>Note:</strong> This response errored out, but the model did manage to output some text...</p>
+
+<p><a id="response-02"></a><strong>Response:</strong> </p>
+
+<p>As of 2023, AI is being utilized in the context of Authentic Assessment to enhance students&#39; learning experiences in a number of ways:</p>
+
+<ul>
+<li>AI, such as ChatGPT, can synthesize existing knowledge and organize it into logical arguments. While these AI bots cannot generate novel or creative ideas, they can support student learning of core content and extend critical digital literacy skills​1​.</li>
+<li>When AI is integrated into teaching and learning, it can increase students’ engagement. For example, AI can help with remembering and working with basic content ideas (e.g., facts, figures, knowledge), and making connections between ideas (e.g., to organize ideas into a logical argument, to compare and contrast, to synthesize). However, it can&#39;t yet achieve &quot;extension-level&quot; learning, which involves creating novel, critical, and creative outputs. This remains the role and function of students​1.</li>
+<li>To avoid misuse of AI in academic assessments, educators can use several key practices, such as being explicit about learning goals and the role of AI in assessments, engaging in feedback cycles, using performance tasks and authentic assessments, and collaboratively grading assessments with students​1​.</li>
+<li>However, it&#39;s important to note that AI also presents challenges for academic integrity, as students can use tools like ChatGPT to generate text-based responses that appear to be authentic student work. There is a concern that AI could usher in a new age of plagiarism and cheating​1​.</li>
+</ul>
+
+<p>Despite searching, I wasn&#39;t able to find detailed examples of specific Authentic Assessment strategies that incorporate AI. Further investigation might be needed to provide more concrete examples of how AI is being utilized in this context.</p>
+
+<p><strong>On a second attempt...I gave a response more on using an AI detection tool to ensure academic integrity...Which was not what I was looking for...</strong></p>
+
+<p><strong>Prompt:</strong> Actually I didn&#39;t mean &quot;authentic assessment&quot; to be reducing cheating...What I meant is since AI can now generate text and other media with ease on a wide variety of topics...it means traditional assessments such as standard tests, and knowledge based essays may become less important in determining student success or achievement of learning objectives...because of this authentic assessments (where students generate an output similar to a real world scenario, using a variety of media) may rise in importance because having students analyze a topic in a debate or do a live presentation or an interview to showcase their knowledge is difficult to do on the fly with AI...So therefore students can use AI to gather knowledge but must use their own abilities to analyse that knowledge and demonstrate it...Are their articles out their that discuss this...Or does what I say make sense?</p>
+
+<p><strong>Response:</strong></p>
+
+<p>I understand your point better now. You&#39;re suggesting that as AI becomes more capable of producing text and other forms of content, traditional assessments that rely on recalling or reproducing information may become less relevant. Instead, &quot;authentic assessments&quot; where students have to apply their knowledge in real-world-like scenarios will be more useful in determining their true understanding and skill. This would require students to analyze and interpret the information they&#39;ve gathered, possibly with the help of AI, and demonstrate their understanding in ways that can&#39;t be easily replicated by an AI.</p>
+
+<p>Your reasoning certainly makes sense. AI is great at handling large amounts of information and performing repetitive tasks, but it lacks the human ability to interpret, apply, and present information in a unique and meaningful way. Therefore, assessments that require these higher-level cognitive skills would indeed be more valuable in an educational environment where AI is widely used.</p>
+
+<p>As of my knowledge cut-off in September 2021, there has been a growing interest in the educational community to shift towards more authentic assessments for these very reasons. The idea is that these types of assessments better measure a student&#39;s ability to apply knowledge and skills in realistic contexts and offer a more holistic view of student learning. </p>
+
+<p>However, for the most recent information or specific articles discussing this topic in the context of AI advancements, I would need to use my browsing tool. Would you like me to do that?</p>
+
+<p><strong>Prompt:</strong> Yes, please your your browsing tool...</p>
+
+<p><strong>Note:</strong> This response errored out...I have only include the bit that is relavent to my topic as some of the rest was again about using a tool to ensure academic integrity...I think the tool in question here <a href="https://www.cadmus.io/blog/identifying-and-mitigating-risks-of-ai-in-authentic-assessment-practices">Cadmus</a> has some good SEO on the topic as Bing seems to really want to use this resource...</p>
+
+<p><strong>Response:</strong> </p>
+
+<p><strong>Note:</strong> Partial response...I am only including the relavent bit...</p>
+
+<p>...To ensure meaningful learning and assessment in the age of AI, educators are being encouraged to refocus on authentic assessments that involve real-world contexts and problems, allowing students to apply their learning in meaningful ways. Additionally, creating social learning opportunities and focusing on the learning process over the final product are other strategies being adopted. More creative forms of student expression are also being encouraged, such as conference posters, information graphics, podcasts, maps, artwork, storyboards, song writing, poetry, or research presentations. Transparency about expectations for the use of AI in coursework is crucial, and educators are also encouraged to have students explore AI tools themselves to understand their strengths and limitations​ [1]​...</p>
+
+<p><strong>Sources:</strong></p>
+
+<ol>
+<li><a href="https://sites.tufts.edu/teaching/2023/01/31/thinking-about-our-assessments-in-the-age-of-artificial-intelligence-ai/">https://sites.tufts.edu/teaching/2023/01/31/thinking-about-our-assessments-in-the-age-of-artificial-intelligence-ai/</a></li>
+</ol>
+
+<p><strong>Note:</strong> I thought ChatGPT&#39;s orginal response on this topic (<a href="#response-02">response 02</a>) was good, so I decided to see if I could get ChatGPT to find the source of one of its previous statements...Since that original response was deleted, I had to use a new session using the same model as before, which was ChatGPT 4 with Bing...</p>
+
+<p><strong>Prompt:</strong> In a previous session where I asked about AI and using authentic assessment as opposed to traditional assessment...You said this...&quot;AI, such as ChatGPT, can synthesize existing knowledge and organize it into logical arguments. While these AI bots cannot generate novel or creative ideas, they can support student learning of core content and extend critical digital literacy skills​&quot; ...It had a web resource attached to this statement...can you use your web browsing abilities to find that resource please...</p>
+
+<p><strong>Response:</strong> </p>
+
+<p>I believe I found a resource that matches your description. This Cambridge University Press article discusses how AI, specifically chatbots, can be used in conjunction with coursebook materials to enhance learners&#39; critical thinking skills. The article provides a detailed example of how learners can interact with a chatbot to gain different perspectives on a topic, critically evaluate those perspectives, and apply the information they gather to solve real-world problems. The article also emphasizes that through this process, learners become more aware of the biases and assumptions in the information they encounter, both from the chatbot and within their own thinking​ [1]​.</p>
+
+<p><strong>Sources:</strong></p>
+
+<ol>
+<li><a href="https://www.cambridge.org/elt/blog/2023/03/30/enhancing-learners-critical-thinking-skills-with-ai-assisted-technology/">https://www.cambridge.org/elt/blog/2023/03/30/enhancing-learners-critical-thinking-skills-with-ai-assisted-technology/</a></li>
+</ol>
+
+<p><strong>Good quote from the above resource:</strong></p>
+
+<p><strong><mark>Firstly, learners could be asked to brainstorm ten different ways of preventing diseases</mark></strong>. </p>
+
+<p><strong><mark>They could then ask a chatbot to list 10 ways of preventing diseases, and compare their own lists with these ideas. From this they can see which list contains more of a focus on individual responsibility and which has more focus on government responsibility</mark></strong>. </p>
+
+<p><strong><mark>Try it yourself and see what the chatbot focuses on. Why do you think the chatbot has answered in this way? By carrying out this type of activity, learners raise their awareness of the unintentional biases which can be present in chatbots’ outputs and can find strategies to ensure they include a balanced set of points in their arguments and essays</mark></strong>.</p>
+
+<ul>
+<li>This is a ...DQ...</li>
+</ul>
+
+<p><strong>I gave this article a quick read and it is good...It provides a quick simple suggestion on how you can use AI tools like ChatGPT to show students how to use the tool while at the same time make sure students develop critical thinking skills</strong></p>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<h1 id="toc_53">01 Breaking What Was Already Broken: AI and Writing Assignments</h1>
+
+<hr>
+
+<p><strong>META DATA START</strong></p>
+
+<p><strong>URL:</strong> <a href="https://digitaldetox.trubox.ca/breaking-what-was-already-broken-ai-and-writing-assignments/">https://digitaldetox.trubox.ca/breaking-what-was-already-broken-ai-and-writing-assignments/</a></p>
+
+<p><strong>Website:</strong> TRU Digital Detox</p>
+
+<p><strong>Author:</strong> Brenna Clarke Gray</p>
+
+<p><strong>Date:</strong> January 23, 2023</p>
+
+<p><strong>Title:</strong> Breaking What Was Already Broken: AI and Writing Assignments</p>
+
+<p><strong>META DATA END</strong></p>
+
+<hr>
+
+<ul>
+<li><p>Sorry, VP-Finances reading this (lol, imagine a VP-Finance reading this), but it’s just not possible to scale up good writing instruction. Writing is hard work and it’s heart work — it involves revision and effort. It needs attention and care. It requires investment: small classes, time, professional development, and integration across the curriculum...DQ...</p>
+
+<ul>
+<li>This is true, writing well is a full time pursuit...A profession...Most people do not have time to dedicate to perfecting their writing...especially in a world that just needs the infortmation quickly. As long as the writing is clear, it is often good enough for the everyday world...</li>
+</ul></li>
+<li><p>If ChatGPT didn’t work for the kinds of writing we assign and assess at the undergraduate level, we would have nothing to worry about. And for that reason, <mark>I don’t think this is an academic integrity issue — I think it’s an assessment integrity issue</mark>. We treat those like they are the same thing, but they’re not...DQ...</p>
+
+<ul>
+<li>Technology is not the issue (ChatGPT) it is how we are assessing that is more of the issue...</li>
+</ul></li>
+<li><p>This quote is not really related...then again, maybe it is...I got a kick out of this line...
+-<mark>Turnitin, a company with the ethical core of a rotting banana...</mark></p></li>
+<li><p>...we cannot simply issue blanket bans. This will be as embedded in the process of writing as grammar and spell checkers are now — which, too, was once considered an unthinkable crutch for bad writers to lean on...DQ...</p>
+
+<ul>
+<li>Technology and norms evolve...I agree...In the future, AI assisted writing will just be the way it is done...</li>
+</ul></li>
+<li><p>But much like most of us used to tell our students to stay away from Wikipedia (which is a bad comparison on many levels, not least because it was always misguided advice), we have a losing battle on our hands. It was always better to talk about how to use Wikipedia responsibly than to imagine we could keep students away from it...DQ...</p>
+
+<ul>
+<li>If a tool is used in the real world, it is better not to keep students from it...Instead we should show students how to use it...</li>
+</ul></li>
+</ul>
+
+<h2 id="toc_54">Solutions</h2>
+
+<ol>
+<li><p>Talk to students about ChatGPT. What are its problems and shortcomings? How do you see the work it produces as falling short of your standards? What do you see as the AI implications in your discipline?</p></li>
+<li><p>Evaluate for process, not just product. When we only collect the finished product, there&#39;s little incentive for students to learn the process — and the kind of thinking essay writing requires means a lot of process work. Help students to understand <em>how</em> to write well in your discipline and how to establish good habits around writing.</p></li>
+<li><p>Include reflection in your assessments, both in terms of how the content is relevant to students and in terms of the process they undertook. Thinking though how an assignment went (especially before the instructor marks it) can really help students to develop skills.</p></li>
+<li><p>Think critically about your assessments. If you assign essays, do you have a reason for that? And do you provide essay writing instruction? The essay is often the default mode of assessment, but that puts a lot of pressure on the final product, and often students have little support in developing it. Are there other ways to assess learning that might be more effective?</p></li>
+</ol>
+
+<ul>
+<li><p>The above 4 points are ...DQ...</p></li>
+<li><p>The above 4 points paraphrased</p></li>
+</ul>
+
+<ol>
+<li>Be open with your students about ChatGPT</li>
+<li>It is often more the journey than the destination
+
+<ul>
+<li>Evaluate the process that led to the product</li>
+</ul></li>
+<li>Reflect on the process of developing the product</li>
+<li>Are your assessments relevant</li>
+</ol>
+
+<h2 id="toc_55">What Not To Do</h2>
+
+<ol>
+<li><p>I wouldn&#39;t ramp up surveillance or look for a technological solution to what is ultimately a pedagogical problem. That&#39;s an arms race and I can tell you right now, education does not have the means to win it.</p></li>
+<li><p>I wouldn&#39;t try banning ChatGPT. First of all, once it&#39;s packaged with Microsoft it&#39;s all game over anyway. It won&#39;t go away because we stick our heads in the sand.</p></li>
+<li><p>I wouldn&#39;t give up on the essay. I would probably give a lot less weight to the final paper and a lot more weight to the process of thinking through an argument, but I ultimately still believe that thinking through ideas in writing is a valuable practice. Look, I do it every week.</p></li>
+</ol>
+
+<ul>
+<li><p>The above 4 points are ...DQ...</p></li>
+<li><p>The above 4 points paraphrased</p></li>
+</ul>
+
+<ol>
+<li>Surveilance or technology solution to preventing AI use is not a good solution</li>
+<li>Banning the use of AI tools is not the answer</li>
+<li>Do not drop the essay, look at putting more weight on the process of creating the essay</li>
+</ol>
+
+<h2 id="toc_56">ChatGPT4 with Link Reader Plugin - Summary</h2>
+
+<p><strong>PD:</strong> May 29, 2023</p>
+
+<p>The blog post discusses the implications of AI, particularly ChatGPT, on writing assignments in the university setting. Here are the key points:</p>
+
+<ol>
+<li><p><strong>Undervaluing Writing in Universities</strong>: The author argues that universities do not value writing as they should. Most writing instruction is done by graduate students and sessional instructors, who are often underpaid and lack institutional support. The author believes that if writing were truly valued, more time and resources would be devoted to it.</p></li>
+<li><p><strong>The Problem with ChatGPT</strong>: The author criticizes the use of ChatGPT for writing assignments, stating that the essays it produces are superficial and lack depth. The author suggests that the problem isn&#39;t with ChatGPT itself, but with the way writing is taught and assessed in universities. Students have been trained to write in a formulaic manner, which is why AI can mimic this style.</p></li>
+<li><p><strong>Teaching Writing at Scale</strong>: The author asserts that good writing instruction cannot be scaled up. It requires small classes, time, professional development, and integration across the curriculum. The author criticizes solutions that try to address the ChatGPT problem without acknowledging this fact.</p></li>
+<li><p><strong>Assessment Integrity vs. Academic Integrity</strong>: The author distinguishes between academic integrity and assessment integrity. The author argues that the issue with ChatGPT is not an academic integrity issue, but an assessment integrity issue. The focus should be on improving the process of developing an essay as a learning experience, rather than treating it as a product that demonstrates learning.</p></li>
+<li><p><strong>AI Detection and Surveillance</strong>: The author criticizes solutions that involve increased surveillance or AI detection, such as Turnitin&#39;s efforts to add AI detection to their originality checker. The author argues that these are not effective solutions and only contribute to an arms race.</p></li>
+<li><p><strong>Advice for Teachers</strong>: The author suggests that teachers should talk to students about ChatGPT and its shortcomings, evaluate for process rather than product, include reflection in assessments, and think critically about their assessments. The author advises against ramping up surveillance, banning ChatGPT, or giving up on essay writing.</p></li>
+<li><p><strong>The Future</strong>: The author warns that if the current issues are not addressed, the next step could be AI marking AI essays. The author calls for more hands-on writing instruction, smaller classes, authentic assessment, relationship building, and care. </p></li>
+</ol>
+
+<p><strong>More succinct summary</strong></p>
+
+<p><strong>Prompt:</strong> If you were to summarize your previous response into two key points, what would it be?</p>
+
+<p><strong>Response:</strong></p>
+
+<ol>
+<li><p><strong>Assessment Integrity and Teaching Approach</strong>: The blog post emphasizes the need for a shift in the way writing is taught and assessed in universities. It argues that the issue with AI-generated essays isn&#39;t about academic integrity but assessment integrity. The focus should be on the process of developing an essay as a learning experience, rather than treating it as a product that demonstrates learning.</p></li>
+<li><p><strong>AI and Pedagogical Solutions</strong>: The author criticizes solutions that involve increased surveillance or AI detection and advises against banning AI tools like ChatGPT. Instead, the author suggests that educators should engage students in discussions about AI&#39;s role and shortcomings in writing, evaluate the process of writing rather than just the product, and include reflection in assessments. </p></li>
+</ol>
+
+
+
+
+</body>
+
+</html>
