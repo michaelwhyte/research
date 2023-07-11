@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>elearing-rubric</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+  body {
+    padding: 2cm; 
+  }
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">Rubric for eLearning Tool Evaluation</h1>
+
+<h2 id="toc_1">Functionality</h2>
+
+<h3 id="toc_2">Scale</h3>
+
+<p>The tool can be scaled to accommodate any size class with the flexibility to create smaller sub-groups or communities of practice.</p>
+
+<h3 id="toc_3">Ease of Use</h3>
+
+<p>The tool has a user-friendly interface and it is easy for instructors and students to become skillful with in a personalized and intuitive manner.</p>
+
+<h3 id="toc_4">Tech Support / Help Availability</h3>
+
+<p>Campus-based technical support and/or help documentation is readily available and aids users in troubleshooting tasks or solving problems experienced; or, the tool provider offers a robust support platform.</p>
+
+<h3 id="toc_5">Hypermediality</h3>
+
+<p>The tool allows users to communicate through different channels (audio, visual, textual) and allows for non-sequential, flexible/adaptive engagement with material.</p>
+
+<h3 id="toc_6">Accessibility Standards</h3>
+
+<p>The tool meets accessibility guidelines (e.g. local accessibility legislation and/or W3C WCAG 2.0 standards).</p>
+
+<h3 id="toc_7">User-focused participation</h3>
+
+<p>The tool is designed to address the needs of diverse users, their various literacies, and capabilities, thereby widening opportunities for participation in learning.</p>
+
+<h3 id="toc_8">Required Equipment</h3>
+
+<p>Proper use of the tool does not require equipment beyond what is typically available to instructors and students (computer with built-in speakers and microphone, internet connection, etc.).</p>
+
+<h3 id="toc_9">Cost of Use</h3>
+
+<p>All aspects of the tool can be used free of charge.</p>
+
+<h3 id="toc_10">Technical Integration/Embedding within a Learning Management System (LMS)</h3>
+
+<p>The tool can be embedded (as an object via HTML code) or fully integrated (e.g. LTI-compliant tools) into an LMS while maintaining full functionality of the tool.</p>
+
+<h3 id="toc_11">Desktop / Laptop Operating Systems</h3>
+
+<p>Users can effectively utilize the tool with any standard, up-to-date operating system.</p>
+
+<h3 id="toc_12">Browser</h3>
+
+<p>Users can effectively utilize the tool with any standard, up-to-date browser.</p>
+
+<h3 id="toc_13">Additional Downloads</h3>
+
+<p>Users do not need to download additional software or browser extensions.</p>
+
+<h3 id="toc_14">Mobile Design Access</h3>
+
+<p>The tool can be accessed, either through the download of an app or via a mobile browser, regardless of the mobile operating system and device. Design of the mobile tool fully takes into consideration the constraints of a smaller-sized screen.</p>
+
+<h3 id="toc_15">Mobile Functionality</h3>
+
+<p>There is little to no functional difference between the mobile and the desktop version, regardless of the device used to access it. No difference in functionality between apps designed for different mobile operating systems.</p>
+
+<h3 id="toc_16">Offline Access</h3>
+
+<p>Offers an offline mode: Core features of the tool can be accessed and utilized even when offline, maintaining functionality and content.</p>
+
+<hr>
+
+<h2 id="toc_17">Accessibility</h2>
+
+<h3 id="toc_18">Accessibility Standards</h3>
+
+<p>The tool meets accessibility guidelines (e.g. local accessibility legislation and/or W3C WCAG 2.0 standards).</p>
+
+<h3 id="toc_19">User-focused participation</h3>
+
+<p>The tool is designed to address the needs of diverse users, their various literacies, and capabilities, thereby widening opportunities for participation in learning.</p>
+
+<h3 id="toc_20">Required Equipment</h3>
+
+<p>Proper use of the tool does not require equipment beyond what is typically available to instructors and students (computer with built-in speakers and microphone, internet connection, etc.).</p>
+
+<h3 id="toc_21">Cost of Use</h3>
+
+<p>All aspects of the tool can be used free of charge.</p>
+
+<h3 id="toc_22">Technical Integration/Embedding within a Learning Management System (LMS)</h3>
+
+<p>The tool can be embedded (as an object via HTML code) or fully integrated (e.g. LTI-compliant tools) into an LMS while maintaining full functionality of the tool.</p>
+
+<h3 id="toc_23">Desktop / Laptop Operating Systems</h3>
+
+<p>Users can effectively utilize the tool with any standard, up-to-date operating system.</p>
+
+<h3 id="toc_24">Browser</h3>
+
+<p>Users can effectively utilize the tool with any standard, up-to-date browser.</p>
+
+<h3 id="toc_25">Additional Downloads</h3>
+
+<p>Users do not need to download additional software or browser extensions.</p>
+
+<h3 id="toc_26">Mobile Design Access</h3>
+
+<p>The tool can be accessed, either through the download of an app or via a mobile browser, regardless of the mobile operating system and device. Design of the mobile tool fully takes into consideration the constraints of a smaller-sized screen.</p>
+
+<h3 id="toc_27">Mobile Functionality</h3>
+
+<p>There is little to no functional difference between the mobile and the desktop version, regardless of the device used to access it. No difference in functionality between apps designed for different mobile operating systems.</p>
+
+<h3 id="toc_28">Offline Access</h3>
+
+<p>Offers an offline mode: Core features of the tool can be accessed and utilized even when offline, maintaining functionality and content.</p>
+
+<hr>
+
+<h2 id="toc_29">Technical</h2>
+
+<h3 id="toc_30">Required Equipment</h3>
+
+<p>Proper use of the tool does not require equipment beyond what is typically available to instructors and students (computer with built-in speakers and microphone, internet connection, etc.).</p>
+
+<h3 id="toc_31">Technical Integration/Embedding within a Learning Management System (LMS)</h3>
+
+<p>The tool can be embedded (as an object via HTML code) or fully integrated (e.g. LTI-compliant tools) into an LMS while maintaining full functionality of the tool.</p>
+
+<h3 id="toc_32">Desktop / Laptop Operating Systems</h3>
+
+<p>Users can effectively utilize the tool with any standard, up-to-date operating system.</p>
+
+<h3 id="toc_33">Browser</h3>
+
+<p>Users can effectively utilize the tool with any standard, up-to-date browser.</p>
+
+<h3 id="toc_34">Additional Downloads</h3>
+
+<p>Users do not need to download additional software or browser extensions.</p>
+
+<h3 id="toc_35">Mobile Design Access</h3>
+
+<p>The tool can be accessed, either through the download of an app or via a mobile browser, regardless of the mobile operating system and device. Design of the mobile tool fully takes into consideration the constraints of a smaller-sized screen.</p>
+
+<h3 id="toc_36">Mobile Functionality</h3>
+
+<p>There is little to no functional difference between the mobile and the desktop version, regardless of the device used to access it. No difference in functionality between apps designed for different mobile operating systems.</p>
+
+<h3 id="toc_37">Offline Access</h3>
+
+<p>Offers an offline mode: Core features of the tool can be accessed and utilized even when offline, maintaining functionality and content.</p>
+
+<hr>
+
+<h2 id="toc_38">Mobile Design</h2>
+
+<h3 id="toc_39">Mobile Design Access</h3>
+
+<p>The tool can be accessed, either through the download of an app or via a mobile browser, regardless of the mobile operating system and device. Design of the mobile tool fully takes into consideration the constraints of a smaller-sized screen.</p>
+
+<h3 id="toc_40">Mobile Functionality</h3>
+
+<p>There is little to no functional difference between the mobile and the desktop version, regardless of the device used to access it. No difference in functionality between apps designed for different mobile operating systems.</p>
+
+<h3 id="toc_41">Offline Access</h3>
+
+<p>Offers an offline mode: Core features of the tool can be accessed and utilized even when offline, maintaining functionality and content.</p>
+
+<hr>
+
+<h2 id="toc_42">Privacy, Data Protection, and Rights</h2>
+
+<h3 id="toc_43">Sign Up/Sign In</h3>
+
+<p>Use of the tool does not require the creation of an external account or additional login, such that no personal user information is collected and shared.</p>
+
+<h3 id="toc_44">Data Privacy and Ownership</h3>
+
+<p>Users maintain ownership and copyright of their intellectual property/data; the user can keep data private and decide if / how data is to be shared.</p>
+
+<h3 id="toc_45">Archiving, Saving, and Exporting Data</h3>
+
+<p>Users can archive, save, or import and export content or activity data in a variety of formats.</p>
+
+<hr>
+
+<h2 id="toc_46">Social Presence</h2>
+
+<h3 id="toc_47">Collaboration</h3>
+
+<p>The tool has the capacity to support a community of learning through both asynchronous and synchronous opportunities for communication, interactivity, and transfer of meaning between users.</p>
+
+<h3 id="toc_48">User Accountability</h3>
+
+<p>Instructors can control learner anonymity; the tool provides technical solutions for holding learners accountable for their actions.</p>
+
+<h3 id="toc_49">Diffusion</h3>
+
+<p>The tool is widely known and popular, it’s likely that most learners are familiar with the tool and have basic technical competence with it.</p>
+
+<hr>
+
+<h2 id="toc_50">Teaching Presence</h2>
+
+<h3 id="toc_51">Facilitation</h3>
+
+<p>The tool has easy-to-use features that would significantly improve an instructor’s ability to be present with learners via active management, monitoring, engagement, and feedback.</p>
+
+<h3 id="toc_52">Customization</h3>
+
+<p>Tool is adaptable to its environment: easily customized to suit the classroom context and targeted learning outcomes.</p>
+
+<h3 id="toc_53">Learning Analytics</h3>
+
+<p>Instructor can monitor learners’ performance on a variety of responsive measures. These measures can be accessed through a user-friendly dashboard.</p>
+
+<hr>
+
+<h2 id="toc_54">Cognitive Presence</h2>
+
+<h3 id="toc_55">Enhancement of Cognitive Task(s)</h3>
+
+<p>The tool enhances engagement in targeted cognitive task(s) that were once overly complex or inconceivable through other means.</p>
+
+<h3 id="toc_56">Higher Order Thinking</h3>
+
+<p>Use of the tool easily facilitates learners to exercise higher order thinking skills (given consideration to design, facilitation, and direction from instructor).</p>
+
+<h3 id="toc_57">Metacognitive Engagement</h3>
+
+<p>Through the tool, learners can regularly receive formative feedback on learning (i.e. they can track their performance, monitor their improvement, test their knowledge).</p>
+
+
+
+
+</body>
+
+</html>
